@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16af3185-86a2-41bf-8318-32d7778a5e88">
+  <name>ЗаписьЛогов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запись логов</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

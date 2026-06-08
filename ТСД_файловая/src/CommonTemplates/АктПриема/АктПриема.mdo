@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5d845d0-b9ad-4d56-a400-22131c7bd10e">
+  <name>АктПриема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Акт приема</value>
+  </synonym>
+</mdclass:CommonTemplate>

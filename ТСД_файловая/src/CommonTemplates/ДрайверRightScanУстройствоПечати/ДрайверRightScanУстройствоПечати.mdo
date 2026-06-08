@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5510af0d-cef8-4699-961f-259d8c75f702">
+  <name>ДрайверRightScanУстройствоПечати</name>
+  <synonym>
+    <key>ru</key>
+    <value>RightScan:Устройство печати ТСД Urovo</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

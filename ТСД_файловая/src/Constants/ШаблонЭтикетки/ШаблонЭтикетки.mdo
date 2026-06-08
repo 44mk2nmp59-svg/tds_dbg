@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="39a7bf82-965a-4378-9e10-1709565b399d">
+  <producedTypes>
+    <managerType typeId="da09edc8-eba9-4727-86c5-9be6951f9665" valueTypeId="bb082b9d-6fc5-4046-bb4d-5276ce5f2b73"/>
+    <valueManagerType typeId="594206b2-630d-48c5-952c-b49dd6bd5ed8" valueTypeId="a15eb5ea-5701-4638-9063-e065125f8920"/>
+    <valueKeyType typeId="7c690cc6-634b-526b-9a53-32ce845c0d78" valueTypeId="d11f434e-fc6a-5e22-92f4-a041a02cb701"/>
+  </producedTypes>
+  <name>ШаблонЭтикетки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон этикетки</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

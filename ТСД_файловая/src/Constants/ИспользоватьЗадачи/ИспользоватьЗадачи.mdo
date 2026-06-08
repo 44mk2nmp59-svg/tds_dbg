@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bba0e788-f184-450a-9091-c016f1e7fd1c">
+  <producedTypes>
+    <managerType typeId="4e8a9d34-8f64-4977-9f4e-b479e45964da" valueTypeId="2e088709-80d3-4e05-b444-a6a3d737d1eb"/>
+    <valueManagerType typeId="d79f563e-bdb5-4bb4-aebc-cd5f922ad306" valueTypeId="b794a455-c609-480f-a21e-a7bfd37b3bea"/>
+    <valueKeyType typeId="1216991b-342f-4791-85af-c8b2a49fad78" valueTypeId="357b2ede-6e9b-419c-ab86-5f5211710415"/>
+  </producedTypes>
+  <name>ИспользоватьЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать задачи</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

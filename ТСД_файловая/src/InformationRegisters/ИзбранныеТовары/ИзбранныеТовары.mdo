@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b62a9768-9032-4642-ad35-429620b7860d">
+  <producedTypes>
+    <selectionType typeId="98cde7cb-04a9-445f-a27a-f312d040889d" valueTypeId="27b30942-b6d3-4f10-9a29-2a2ad70f59e7"/>
+    <listType typeId="21e3e457-1b99-4084-8adf-c8644b998b58" valueTypeId="40bb4357-076c-4246-9fcf-37c49e143560"/>
+    <managerType typeId="7b88e209-205a-4b9c-b75f-5dce4c816912" valueTypeId="3632ed5d-d9f8-4765-a1cc-d95e48920896"/>
+    <recordSetType typeId="a5362afe-b648-4938-9531-3c42755adbb2" valueTypeId="20998dda-c039-4480-9f2b-ab379d1f4bba"/>
+    <recordKeyType typeId="d327d487-cec0-42f2-a818-3c237c189142" valueTypeId="545a440d-82f7-4751-97f4-a6a8e08e222c"/>
+    <recordType typeId="7beb60ef-2b4a-4c0a-b67e-fc421040f636" valueTypeId="35b5b1eb-3097-4feb-a28b-70ede6d7991b"/>
+    <recordManagerType typeId="c64c0f72-c8ca-45de-805f-8a8405b775ec" valueTypeId="6ce8c00c-8ef2-4682-a0f6-496f86373d5c"/>
+  </producedTypes>
+  <name>ИзбранныеТовары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Избранные товары</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="4dfb3d66-ea3a-4427-b414-0e7ed4c37d89">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

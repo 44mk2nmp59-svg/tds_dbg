@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="379dfa07-f72f-4ab2-9d66-8cb09f6cf152">
+  <producedTypes>
+    <managerType typeId="ed834db7-86ec-4f69-a07d-a33636bec76a" valueTypeId="aa7eda0e-70d0-4113-b395-28db59b2c326"/>
+    <valueManagerType typeId="919a926c-ab87-45e9-aae7-bab45afbecaa" valueTypeId="54d71149-8872-4de8-8dd7-bdd647e68381"/>
+    <valueKeyType typeId="ce9e2242-9edc-4881-857c-6bf83ab57107" valueTypeId="620ce566-0864-45a0-9ab2-fb246c2b6e70"/>
+  </producedTypes>
+  <name>ИспользоватьПриходУход</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать приход уход</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

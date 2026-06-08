@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f02c5d82-ff31-4fad-99ef-2d9b712cf958">
+  <producedTypes>
+    <objectType typeId="6e2e1983-f652-4dd7-95fa-e3ba85e84f8e" valueTypeId="25f3cc5c-6863-4f7a-ba25-3526324bb95d"/>
+    <managerType typeId="97437790-fe8b-4531-a6c0-b671235adbed" valueTypeId="772812f5-a45d-44b3-9ff8-c323190f6f32"/>
+  </producedTypes>
+  <name>НастройкиПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки приложения</value>
+  </synonym>
+  <defaultForm>DataProcessor.НастройкиПриложения.Form.ПодключаемоеОборудование</defaultForm>
+  <forms uuid="b9ad7342-6af3-4e65-8775-b9bbb1b0f962">
+    <name>ПодключаемоеОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключаемое оборудование</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="51a070b2-4462-4256-b2fb-a7d1fd17442c">
+    <name>РежимСинхронизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим синхронизации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3231b393-4002-4af1-ac15-ae4942d7807b">
+    <name>ПодключаемоеОборудованиеСканерШтрихкодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключаемое оборудование сканер штрихкодов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6cea3306-fd1f-431a-b75a-b0a047647b6b">
+    <name>Демоверсия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демоверсия</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="16d6d06f-ac1e-48f8-a2c1-c497f3a5fd36">
+    <name>ПараметрыПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры печати</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f277fd26-3a40-4cff-9ef5-f73fd7215bf4">
+    <name>Геолокация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Геолокация</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="443d66ca-fb18-4dec-ad5a-55b0d8e9f955">
+    <name>АдминистративныйРежим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Административный режим</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e5f541bd-3698-42d9-851a-aadaddd4a5db">
+    <name>ПараметрыСинхронизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры синхронизации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="36a86631-150a-40b9-8524-a00b067ae9e5">
+    <name>ПодключаемоеОборудованиеПлатежнаяСистема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключаемое оборудование платежная система</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6b4e3d8d-0598-4ba4-98ab-e30b2e320690">
+    <name>РезервноеКопирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервное копирование</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9d025bef-f62f-4a13-80f9-2c648de7da84">
+    <name>ПодключаемоеОборудованиеУстройствоПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключаемое оборудование устройство печати</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d58de631-6775-4cbd-8545-2ce8b33c5203">
+    <name>ВнешнийВидПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний вид приложения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="aed947ab-7f2e-44a2-ac29-1de888e255fa">
+    <name>ПараметрыУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры учета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="526c97de-e315-430a-8225-b211d0d10f02">
+    <name>ЭтикеткиЦенники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этикетки ценники</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

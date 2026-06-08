@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="089e48de-3bc7-4973-bac8-8eda35b04288">
+  <producedTypes>
+    <objectType typeId="b013d70b-ee7c-42b5-97f8-a5da56c6c512" valueTypeId="b59f188c-d052-487d-a8c5-d4ed1a374237"/>
+    <refType typeId="c2350aa5-151a-4269-9c34-73cf0cb480d8" valueTypeId="1c5e470c-76e4-447e-aef7-ec9c8aafdaa2"/>
+    <selectionType typeId="6b6437c5-fbb9-4e18-b49c-9d4f6cd925b6" valueTypeId="5f82e501-5329-4562-b54f-7732694e990a"/>
+    <listType typeId="0d6a9281-29b4-4000-95df-ec50790484c4" valueTypeId="d59da558-a781-41b1-87dd-9680953caf1a"/>
+    <managerType typeId="8bea919d-eaf7-4f31-ba63-75fbff384a93" valueTypeId="6af38e3f-c000-4f21-a678-344b24c2f253"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>13</codeLength>
+  <descriptionLength>70</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="0cedc355-c25b-4aa2-af55-8d99c3d27bc4">
+      <name>АдмиралООО</name>
+      <description>Адмирал ООО</description>
+      <code xsi:type="core:StringValue">
+        <value>39503453</value>
+      </code>
+    </items>
+    <items id="21ee0552-4717-471b-9603-9d892999738e">
+      <name>АдмиралХФК</name>
+      <description>Адмирал ХФК</description>
+      <code xsi:type="core:StringValue">
+        <value>39503453</value>
+      </code>
+    </items>
+    <items id="0c90255d-a7a1-4bac-aed5-266afef98774">
+      <name>ВиливанООО</name>
+      <description>Виливан ООО</description>
+      <code xsi:type="core:StringValue">
+        <value>42872543</value>
+      </code>
+    </items>
+    <items id="d8fcfd7b-5581-4515-9af9-6e0b691b905c">
+      <name>ТропикООО</name>
+      <description>Тропик ООО</description>
+      <code xsi:type="core:StringValue">
+        <value>20831737</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Контрагенты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Контрагенты.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Контрагенты.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="4847ae38-d2b6-4faa-ae8e-da334ea1a558">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d1eda26-2290-49d8-b90f-17e50cf60eb3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d8a4d5b2-9c4e-41e6-846f-cecad312eac3">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c94ff4fb-85bb-4954-9a70-7aa3aeb79373">
+  <producedTypes>
+    <managerType typeId="617dffad-84fa-469a-a70e-af5c7dc0624e" valueTypeId="02dd2e6c-a7ce-4458-a170-a20f12e23182"/>
+    <valueManagerType typeId="46cd2149-d8c2-49e0-8521-3b6f5b34e07f" valueTypeId="f15073f2-d08c-475f-8a17-483eb781506d"/>
+    <valueKeyType typeId="36ca505d-e359-56b2-8b86-aadb25e5481d" valueTypeId="801874ea-41f4-53b7-9852-fbcedaaeb939"/>
+  </producedTypes>
+  <name>ИспользоватьЖурналДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать журнал документов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

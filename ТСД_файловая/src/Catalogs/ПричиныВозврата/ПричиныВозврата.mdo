@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33c43b87-1111-466d-8938-01bad0187541">
+  <producedTypes>
+    <objectType typeId="ed847822-4a6e-4f19-84b2-2e56030dd025" valueTypeId="46738b6d-1c79-4f83-ae3a-d8b27344704e"/>
+    <refType typeId="ff6f395a-b00a-4a85-b7d7-55a9363e6418" valueTypeId="7a77643c-72e3-42da-853f-8ac103aabc13"/>
+    <selectionType typeId="a72f4013-2a31-47dd-8e09-7a1da5ea08a1" valueTypeId="9428e30b-6ccd-44a4-ac17-806d504ea922"/>
+    <listType typeId="a01ee80f-dccb-446b-987a-e3d0192b5bfc" valueTypeId="a4aa10ca-948e-4d23-966f-d4a4cb0aae95"/>
+    <managerType typeId="891e8671-b9ce-4461-93a7-f65b345be3fd" valueTypeId="b5365999-346c-4d43-abba-54fb6f6c137e"/>
+  </producedTypes>
+  <name>ПричиныВозврата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины возврата</value>
+  </synonym>
+  <inputByString>Catalog.ПричиныВозврата.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПричиныВозврата.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9371febc-c796-40b2-b3cf-c519c22f6107">
+      <name>Бой</name>
+      <description>Бой</description>
+      <code xsi:type="core:StringValue">
+        <value>000006</value>
+      </code>
+    </items>
+    <items id="b39819e6-0dd6-4585-b40b-786a50cbe778">
+      <name>Брак</name>
+      <description>Брак</description>
+      <code xsi:type="core:StringValue">
+        <value>000003</value>
+      </code>
+    </items>
+    <items id="321353c2-9c6e-40bb-be69-dd213a75b3d3">
+      <name>УкажитеПричину</name>
+      <description>Вкажіть причину</description>
+      <code xsi:type="core:StringValue">
+        <value>100000</value>
+      </code>
+    </items>
+    <items id="e8b19444-aa13-481e-9f3c-8cce31110e82">
+      <name>НеСоответствуетМРЦ</name>
+      <description>Не соответствует МРЦ</description>
+      <code xsi:type="core:StringValue">
+        <value>000016</value>
+      </code>
+    </items>
+    <items id="5b34bc20-d2a4-41be-affb-9f2e4834cd87">
+      <name>Недовоз</name>
+      <description>Недовоз</description>
+      <code xsi:type="core:StringValue">
+        <value>000014</value>
+      </code>
+    </items>
+    <items id="aa469530-2bc5-4a10-964a-a767aa4f2ef3">
+      <name>Пересорт</name>
+      <description>Пересорт</description>
+      <code xsi:type="core:StringValue">
+        <value>000017</value>
+      </code>
+    </items>
+    <items id="f27cdef9-826f-4a62-a256-2e9ff04a9b3f">
+      <name>ПодходящиеСроки</name>
+      <description>Подходящие сроки</description>
+      <code xsi:type="core:StringValue">
+        <value>000002</value>
+      </code>
+    </items>
+    <items id="cc4bdd42-f259-4742-8806-4bb178ecd502">
+      <name>Просрочка</name>
+      <description>Просрочка</description>
+      <code xsi:type="core:StringValue">
+        <value>000001</value>
+      </code>
+    </items>
+    <items id="c488f9fb-781c-4fb1-81b5-c6afcbbd2e0f">
+      <name>ТВМ</name>
+      <description>ТВМ</description>
+      <code xsi:type="core:StringValue">
+        <value>000015</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.ПричиныВозврата.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="74b94609-49f6-495d-9fd3-fac33b146b88">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

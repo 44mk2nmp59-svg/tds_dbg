@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="979e5e45-c7e6-4ed7-8ab3-fe0b12f5c9e6">
+  <name>Переинициализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переинициализация</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f47bed54-8be4-46ab-b77d-5d0e847dea86">
+  <producedTypes>
+    <managerType typeId="48c6fd02-2440-4aea-980c-10aad406f37c" valueTypeId="8317aaa0-a904-480c-ba49-a16ac6301888"/>
+    <valueManagerType typeId="7386a5e1-89bf-463a-8183-76b3a4da2fb0" valueTypeId="9a37a361-b74f-4fca-8fc7-ad89b1ab0eef"/>
+    <valueKeyType typeId="d728c90f-14bc-482d-957b-1a6f1dc76ae8" valueTypeId="620635f8-e60f-4496-bd90-7f3a54cc3fd5"/>
+  </producedTypes>
+  <name>ИспользоватьЖурналПечать</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать журнал печать</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

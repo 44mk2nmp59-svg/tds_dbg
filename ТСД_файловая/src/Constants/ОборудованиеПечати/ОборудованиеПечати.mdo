@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1abf96cd-307c-4ccb-b9a6-69a4052ff9c7">
+  <producedTypes>
+    <managerType typeId="a00b6493-6514-4300-8d76-12508ea89c89" valueTypeId="3e42926e-462d-42f7-bed7-d08949e5a2a2"/>
+    <valueManagerType typeId="8ff40677-c4d4-47df-a8df-fd1a6dc15bfa" valueTypeId="3ea5dc1a-b3b2-415a-a23d-8228c6bb4587"/>
+    <valueKeyType typeId="4f5e3182-b149-57ab-b71a-50d1a4e7a5ad" valueTypeId="56f15c9c-88dd-54f8-93ea-c78fb51f8d9a"/>
+  </producedTypes>
+  <name>ОборудованиеПечати</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование печати</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПодключаемоеОборудование</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

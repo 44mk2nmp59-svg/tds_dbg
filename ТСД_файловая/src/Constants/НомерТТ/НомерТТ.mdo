@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c86e892-4a1a-48a0-a419-638d351ed00a">
+  <producedTypes>
+    <managerType typeId="db0e42b2-e700-4c15-84eb-b1af0c331163" valueTypeId="dd22c31d-f9d6-4e40-9a7b-f04d61aa4d93"/>
+    <valueManagerType typeId="9c5f82d8-4397-48ad-98bc-5af518c73a1c" valueTypeId="281c21e2-c7d9-4e69-9fba-d488ead565a7"/>
+    <valueKeyType typeId="9e6e9ffa-53d2-4573-819a-78990e293e7b" valueTypeId="138098e0-32b9-42bc-8c38-a5653ced630d"/>
+  </producedTypes>
+  <name>НомерТТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер ТТ</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c43c61d9-7004-4ff6-8888-0a639e1f3e13">
+  <producedTypes>
+    <managerType typeId="929fb4a1-4fde-4740-b0fa-ffd31254d0fd" valueTypeId="445dd2cc-035f-404d-814c-1a88c13282e3"/>
+    <valueManagerType typeId="8e05616c-ff2b-4128-a5ab-9f88824301fb" valueTypeId="b7cc36b4-9618-4636-b4b3-2c7272c5135f"/>
+    <valueKeyType typeId="3502270f-7224-40a9-b7e4-7119cc624519" valueTypeId="08d42caa-6442-453b-ba65-b0b7569e375c"/>
+  </producedTypes>
+  <name>ИспользоватьЖурналПриемТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать журнал прием товаров</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

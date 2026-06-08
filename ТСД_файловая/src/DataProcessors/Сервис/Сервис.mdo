@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc12db26-f346-4933-bc6c-9739ced072c0">
+  <producedTypes>
+    <objectType typeId="ccfdf296-0398-48a6-865a-3e8000c2970d" valueTypeId="79255031-ba5f-479f-ad20-f8dbf8ae1252"/>
+    <managerType typeId="b8ec1c8c-b0ac-4aaa-a635-8cfef637754b" valueTypeId="4696e109-56d2-41cc-90c9-21469b392de3"/>
+  </producedTypes>
+  <name>Сервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервис</value>
+  </synonym>
+  <defaultForm>DataProcessor.Сервис.Form.СверкаИтоговПоПлатежнойСистеме</defaultForm>
+  <forms uuid="c0c3a522-564c-4027-b335-53af01bc290a">
+    <name>ЗагрузкаИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервные копии</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="87d0ea50-2da6-4e01-b67a-643e9d67e4ae">
+    <name>ИмпортПрайсЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт прайс-листа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="96a04db7-fbe5-4ed1-bcd6-e55f9da1966f">
+    <name>ИмпортПрайсЛистаДанныеЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт прайс-листа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b8536dd0-582f-4bc6-aab7-dd51623525dc">
+    <name>ИнформацияОВыгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация о выгрузке</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="af581462-924e-4daa-a9c3-6ccc28a77b30">
+    <name>МусорнаяКорзина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мусорная корзина</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f5168503-1653-4ec8-9802-30ee2e55f239">
+    <name>ПечатьЭтикетокЦенников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать этикеток ценников</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e46054bc-0d99-47c5-8358-3b921ada26bc">
+    <name>ПечатьЭтикетокЦенниковРедактированиеСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать этикеток ценников редактирование строки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="06fadb67-25d3-4282-9c95-94379be8f0ae">
+    <name>СверкаИтоговПоПлатежнойСистеме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сверка итогов по платежной системе</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="495d54e2-ad7a-476a-885f-5f5da1ae638f">
+    <name>Синхронизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5dbd88fc-ad02-4789-b76c-602ab969ddf6">
+    <name>УдалениеДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление данных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="763b503a-47f9-4108-8be4-51b552616c43">
+    <name>Инициализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициализация</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dea2d394-eb3d-4842-b4a8-26f7b4a030a1">
+    <name>ИнициализацияСотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициализация сотрудник</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

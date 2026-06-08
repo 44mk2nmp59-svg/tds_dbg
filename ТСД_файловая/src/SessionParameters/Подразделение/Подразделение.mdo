@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1617f444-6a97-4e98-9aff-449a2f0d75b1">
+  <name>Подразделение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделение</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+</mdclass:SessionParameter>

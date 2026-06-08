@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6662a15-0b27-4b19-9116-eb46d33ffea9">
+  <name>Реестр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр</value>
+  </synonym>
+</mdclass:CommonTemplate>

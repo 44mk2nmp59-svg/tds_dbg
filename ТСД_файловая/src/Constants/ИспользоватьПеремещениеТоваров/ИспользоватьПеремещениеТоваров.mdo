@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d1395b1-f7f8-4f55-9a28-05c7389022eb">
+  <producedTypes>
+    <managerType typeId="a0cf38f6-7fde-450f-974c-b0fbc0b75720" valueTypeId="99e35121-6a2f-431b-ba4e-6afa0cafc39c"/>
+    <valueManagerType typeId="a64453bf-4a31-418f-b602-809cb11500c9" valueTypeId="fa2f133a-f07e-4e52-b8c8-3ccd35406acb"/>
+    <valueKeyType typeId="1155b56f-8513-5d86-b9e3-0a55216b5d3d" valueTypeId="6087bc68-7419-555c-8381-4575e74d5684"/>
+  </producedTypes>
+  <name>ИспользоватьПеремещениеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать перемещение товаров</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

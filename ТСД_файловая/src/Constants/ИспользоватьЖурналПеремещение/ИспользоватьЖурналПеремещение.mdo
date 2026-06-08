@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09b068aa-15c5-4283-a1c4-a398eb42dca3">
+  <producedTypes>
+    <managerType typeId="0fd841b0-e216-4c1f-85a8-42c05c558753" valueTypeId="aac7bdfb-e84a-4038-a2ab-67edfea67052"/>
+    <valueManagerType typeId="7feaa29f-89a7-4440-a3b2-2e75f376f86c" valueTypeId="93c6d3de-d607-42c7-8dd5-4d9e1cbbefd4"/>
+    <valueKeyType typeId="3d8ffc7e-1588-4e50-8d60-c360628bfd44" valueTypeId="be7d5fbb-3c67-4943-92a6-93a98ab6f98b"/>
+  </producedTypes>
+  <name>ИспользоватьЖурналПеремещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать журнал перемещение</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

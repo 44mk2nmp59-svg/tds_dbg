@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dcec5dc6-c803-4650-b529-0b75ae87a74c">
+  <producedTypes>
+    <refType typeId="52fe1782-a6b6-4e6a-b508-891570aee1e9" valueTypeId="e4449f66-9117-4d61-bd47-a8f48caa254c"/>
+    <listType typeId="71f3782c-6dfc-4904-9d8f-927e9574d2ad" valueTypeId="af9d7461-5d29-4f13-8e43-06e6196d15c4"/>
+    <managerType typeId="c33d5378-5313-4b45-9b0b-0f5bff9acf43" valueTypeId="57657652-d781-4273-a021-24f617def9dd"/>
+  </producedTypes>
+  <name>СтатусыЗаказовКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заказов клиентов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="52304766-c63a-47a6-bdf4-aa7e6eaa4fc7">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98b40574-fa60-492e-af8e-76e578d55820">
+    <name>Отправлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="293f520a-978d-46f6-9758-416d50ed82a3">
+    <name>ГотовКОбмену</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов к обмену</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1f097c83-04fa-4026-8de0-71422eff0216">
+    <name>Архивный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

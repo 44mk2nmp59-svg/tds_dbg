@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55a52129-cfe2-4302-9a9d-19ee0c5a9c0b">
+  <producedTypes>
+    <managerType typeId="dd47b24f-6fba-444c-9b8c-c81366f9eccf" valueTypeId="12d36707-e2b7-40d9-9e0e-1aab18520d13"/>
+    <valueManagerType typeId="f5546bbe-bae2-4c3a-bec3-b89fbc2527ec" valueTypeId="a2e96d7f-5555-44c4-8465-2b8126bf14ec"/>
+    <valueKeyType typeId="37dd61f4-63e3-52bf-be0e-42920346fa3f" valueTypeId="324ba421-3da4-53d9-be63-7f0b9540db7b"/>
+  </producedTypes>
+  <name>МаскаФайловПрайсЛиста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маска файлов прайс листа</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

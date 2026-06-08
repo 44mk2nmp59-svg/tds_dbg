@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43ebd2f7-3ebf-455a-b91b-164e32f3593e">
+  <producedTypes>
+    <managerType typeId="3e75d25e-b87b-45dd-97e8-e71404a4ede9" valueTypeId="58ba0ede-84d8-4f32-9adb-2134eab2f63e"/>
+    <valueManagerType typeId="66cdf608-826e-45d7-8a38-ccf42efaabae" valueTypeId="a2bcffa3-a615-4871-8d15-c13a23afdc37"/>
+    <valueKeyType typeId="97aec7cd-c39f-55bb-9744-e45d6b9522d8" valueTypeId="c868cba9-1153-5507-ae71-dd94aa2b1598"/>
+  </producedTypes>
+  <name>ЧастотаОбновленияКоординат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Частота обновления координат</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

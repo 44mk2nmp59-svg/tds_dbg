@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6832507a-1cb6-439e-8242-52c3dd1ceb97">
+  <producedTypes>
+    <managerType typeId="67fd214a-5757-4b1e-9aad-89eb26fe07b9" valueTypeId="931df9ae-63db-4771-96f0-7811a70e0e37"/>
+    <valueManagerType typeId="390e5fff-a09a-487d-89f3-8f14925eadef" valueTypeId="8d037c32-c687-4909-b71b-bccb4f1fbb66"/>
+    <valueKeyType typeId="7ba547b0-00e7-411e-8bcb-5d4a10f6fbef" valueTypeId="53e8cb75-d55c-4ba3-9201-f1dc171a53cc"/>
+  </producedTypes>
+  <name>ИспользоватьЖурналИнвентаризация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать журнал инвентаризация</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

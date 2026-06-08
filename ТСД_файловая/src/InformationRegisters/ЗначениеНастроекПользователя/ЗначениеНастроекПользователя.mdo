@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da2e3e7c-90fa-4fed-a176-44b6c729be5d">
+  <producedTypes>
+    <selectionType typeId="e744adbd-f1db-433f-9ea5-950b32977683" valueTypeId="e72a6315-f4e6-4a40-896b-9ea91a0a43a8"/>
+    <listType typeId="a762509d-8573-43f4-9e9b-86475d0d491b" valueTypeId="a9542ac8-830a-429f-a080-e62cb3fd2555"/>
+    <managerType typeId="09490309-bd55-43d8-a2e0-3c1e8afe15df" valueTypeId="998966f9-98e2-458e-9713-89e8548cbba3"/>
+    <recordSetType typeId="0a96681d-3fcc-4694-a8b1-7a8ecc0ae8b5" valueTypeId="80d6c774-740c-4f88-9ccc-35e83ef7e3fb"/>
+    <recordKeyType typeId="f057ce10-7f20-4abf-bd30-f56af00fc7c8" valueTypeId="d94e68bd-7d1a-47bd-88bf-09aab0651adb"/>
+    <recordType typeId="af5aae6a-affc-4898-b68b-1a6f52bccaf9" valueTypeId="b5e50744-7737-481f-a436-f5b344728805"/>
+    <recordManagerType typeId="75508614-82c9-4698-9244-ed4a30cc1441" valueTypeId="aadc9c2e-6301-4787-8b3a-1cbe3c8e0e47"/>
+  </producedTypes>
+  <name>ЗначениеНастроекПользователя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значение настроек пользователя</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c82ccda4-4c8a-4308-85ce-9a2ceea9de4c">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>AnyRef</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1505dfb5-0ebe-469d-8fc4-3098675ad0f7">
+    <name>ЗначениеХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение хранилище</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="76c1383b-ab21-4594-bf25-b04c9c6cc2a7">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НастройкиПользователя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

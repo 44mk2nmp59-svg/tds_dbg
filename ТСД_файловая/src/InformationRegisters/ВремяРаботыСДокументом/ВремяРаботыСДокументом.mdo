@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3bccdcd-f38f-4850-9146-cce1155bc662">
+  <producedTypes>
+    <selectionType typeId="eff06d20-6404-4340-baf9-1939ea448588" valueTypeId="3675f461-98a9-49b2-9f45-2b90e09aa611"/>
+    <listType typeId="61f417cd-04ee-45f2-bcd1-8f158782cd6f" valueTypeId="61fb1507-b588-4586-8255-bd072cc3d74e"/>
+    <managerType typeId="6a31dc89-a98a-44f0-9ee1-60773fa6dd94" valueTypeId="d74f5212-1d67-4891-8659-31148b6aabb3"/>
+    <recordSetType typeId="04db8181-c575-495f-adcf-0caea7c189ad" valueTypeId="d3fd7331-bb4b-4e4f-abea-84a655e5d125"/>
+    <recordKeyType typeId="a3a0e2da-db7c-4baa-82ee-4bdd33f458fb" valueTypeId="ca3d7e4d-3c51-415b-b984-d1bf29728065"/>
+    <recordType typeId="d1f3c1ed-2e9c-478e-bd23-ec6bdaffb049" valueTypeId="dd9e1577-692f-45c5-825d-de7ee373251e"/>
+    <recordManagerType typeId="4f0acefe-09a2-49ec-a69c-5420d15f4b98" valueTypeId="aa0e341a-b425-46c9-b51d-64825d12399f"/>
+  </producedTypes>
+  <name>ВремяРаботыСДокументом</name>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="015a8d6c-2463-405b-9efe-b63dec3612b9">
+    <name>НачалоРаботыСдокументом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало работы сдокументом</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c8ee1b3d-3e39-4ab9-97bb-bb6ea770f31f">
+    <name>ДокументОткрытСекунд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ открыт секунд</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f7cfe584-4927-4d2a-ba34-3196ca917e8b">
+    <name>ОтсканированоТовар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсканировано товар</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1a2c83fa-a62a-4f0a-ba21-5ad66b2c2b13">
+    <name>ВводВручнуюТовар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод вручную товар</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c8cb0fae-0622-4e65-83d7-5da666e2c6ca">
+    <name>ДокументUUID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ UUID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value>                                    </value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="017377f0-2c5d-40c6-8553-f482e37d77bb">
+    <name>ТипДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип документа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

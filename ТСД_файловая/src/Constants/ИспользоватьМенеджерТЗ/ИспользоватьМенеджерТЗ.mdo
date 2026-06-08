@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca2b71eb-61c8-40da-b090-2ca92da16274">
+  <producedTypes>
+    <managerType typeId="4dce217a-2d12-4ffe-997a-cfc2edb1987c" valueTypeId="630f5ea9-98f8-4b88-bc73-cb017790bc01"/>
+    <valueManagerType typeId="41fa65f2-d748-44c4-bb83-7ac54873b2e6" valueTypeId="5d5c4d1c-f423-4c64-82e1-a7dcee9bfed5"/>
+    <valueKeyType typeId="c2698ff1-3371-4f80-9a0c-f8a69eb854e6" valueTypeId="1bc89be9-92fe-4814-bfe3-c7f86e17729b"/>
+  </producedTypes>
+  <name>ИспользоватьМенеджерТЗ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать менеджер ТЗ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

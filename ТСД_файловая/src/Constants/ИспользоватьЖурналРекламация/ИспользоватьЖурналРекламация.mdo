@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b23357f-f5d1-4282-adcf-a670cf91c315">
+  <producedTypes>
+    <managerType typeId="a05b022f-38bb-484c-ba75-ecefb08ec0ae" valueTypeId="0a998974-6e65-4888-87ab-5e7e5236ec1d"/>
+    <valueManagerType typeId="ea28435e-9b10-4796-b0ae-7f4c88ea6a37" valueTypeId="66d6739f-ddb6-42fc-8e4c-2edcc1bfc76b"/>
+    <valueKeyType typeId="bec46e2a-cc62-47e6-9a55-74c687c87064" valueTypeId="a4373943-1ee7-4668-ac0a-a6aeaadd1b02"/>
+  </producedTypes>
+  <name>ИспользоватьЖурналРекламация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать журнал рекламация</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

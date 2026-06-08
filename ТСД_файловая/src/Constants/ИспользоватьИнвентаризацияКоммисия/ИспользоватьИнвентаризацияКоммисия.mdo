@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df948046-0dc5-440c-8d62-81022bb22eaf">
+  <producedTypes>
+    <managerType typeId="6dd1a303-330f-4dbe-9750-2adba8ea14eb" valueTypeId="eeead74f-28ef-49d0-93e4-4c3eb99e2040"/>
+    <valueManagerType typeId="e0ed463f-98e5-4960-901d-263fadac7de8" valueTypeId="56cf3070-b448-4f07-a7ab-d6cdc908ca20"/>
+    <valueKeyType typeId="13a5a688-984e-4a37-8991-b62c4b3e0d68" valueTypeId="7912db2a-89c2-4961-b746-6fdea3ee6067"/>
+  </producedTypes>
+  <name>ИспользоватьИнвентаризацияКоммисия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать инвентаризация коммисия</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

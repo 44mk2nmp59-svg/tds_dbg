@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2bda38a-498a-4427-a312-43973a407f09">
+  <name>Корзина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корзина</value>
+  </synonym>
+</mdclass:CommonPicture>

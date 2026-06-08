@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d81311a4-5b40-4c7b-80dc-c4d45d11b367">
+  <producedTypes>
+    <managerType typeId="856cb8da-b84f-4566-bce2-0ed0bdeb5c13" valueTypeId="e82ad52d-532a-4c22-b7e5-e55a9b2ed88e"/>
+    <valueManagerType typeId="49c7d167-4d0d-4044-9c90-46adb7da5d66" valueTypeId="88be5b67-7533-47d3-8069-dd2ce44c999b"/>
+    <valueKeyType typeId="9849ec05-08b7-4abc-8f17-f8290306c120" valueTypeId="7517d782-94f8-45b7-ad21-bb3d5235c109"/>
+  </producedTypes>
+  <name>ИспользоватьЖурналЗаказыПоставщику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать заказы поставщику</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

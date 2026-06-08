@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b34d878-6791-4b2e-9609-11e20b260597">
+  <producedTypes>
+    <refType typeId="a9fa613b-dee1-4e86-82cb-3f5a26432d91" valueTypeId="2fa3d86e-12ea-499e-a0f9-f98beb64db01"/>
+    <listType typeId="aa768a05-0db2-42b6-bfc4-496d4007a988" valueTypeId="444de100-4a0e-4176-a2f4-bae4409b482e"/>
+    <managerType typeId="ab45e167-9b72-43ad-936c-a581086240d5" valueTypeId="fc80fc0c-a514-48fb-a909-476e77a9ae5b"/>
+  </producedTypes>
+  <name>ПричиныРасхождения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины расхождения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ce199283-9a6f-41e2-bd19-fb816a1d8e29">
+    <name>Недовоз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недовіз</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84fbacc1-d87d-4e37-b7f5-885d3d20b4d1">
+    <name>ОтсутствиеВЗаказе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Відсутність в замовленні</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="380dda39-aca8-4165-8f46-1d15cb756e73">
+    <name>Пересортица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e7efd57-090a-4329-9020-63b0cb402794">
+    <name>Бой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Невідповідність якості</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a43a2a14-db08-4d9e-88bb-fa46797f2561">
+    <name>НеАМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар не в матриці</value>
+    </synonym>
+    <comment>Товар в не матрицы</comment>
+  </enumValues>
+</mdclass:Enum>

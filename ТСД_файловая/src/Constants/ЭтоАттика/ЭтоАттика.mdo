@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adc4dba9-06f9-4251-b90b-4331f14d269d">
+  <producedTypes>
+    <managerType typeId="2b4d9f8a-5870-4b2d-9fc3-cedf188690ea" valueTypeId="14d76fe0-0a40-4ba3-bfa6-89ed4ec2264d"/>
+    <valueManagerType typeId="7152fc30-8a6e-4c17-a1da-1a83c74697ae" valueTypeId="57bf0ede-c99e-4b0f-9a3d-33b40e148c7b"/>
+    <valueKeyType typeId="b9265bf0-72f6-479b-9bf7-83911c0b8f18" valueTypeId="dff63a5f-b9a9-46c6-9bff-ff180d9c98ce"/>
+  </producedTypes>
+  <name>ЭтоАттика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Это аттика</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

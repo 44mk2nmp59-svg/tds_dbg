@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cad30e5f-1edb-4a63-855c-324c4c894035">
+  <producedTypes>
+    <managerType typeId="6e1fd317-4b75-4dc4-a268-5b023905c80e" valueTypeId="c26bbf88-0178-4fa0-ba37-a3a918321ec2"/>
+    <valueManagerType typeId="9584ac60-53a9-4ac1-9538-869b0d24eeca" valueTypeId="603be1fd-55ce-4345-8e4d-e36d758aaa1c"/>
+    <valueKeyType typeId="84758e65-9ee1-5467-a5b9-29b2326bce31" valueTypeId="7b28c7f6-1d39-5a25-98ee-437861f0f406"/>
+  </producedTypes>
+  <name>ОборудованиеПлатежнойСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оборудование платежной системы</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ПодключаемоеОборудование</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

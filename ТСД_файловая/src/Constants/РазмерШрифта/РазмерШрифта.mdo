@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d37fd18-9916-4b7e-93bb-63d03a73b61e">
+  <producedTypes>
+    <managerType typeId="e19693c1-ecf1-4362-b640-558b885aa0ee" valueTypeId="5170cb0f-8ac0-4bf1-afbf-48f9a4816f64"/>
+    <valueManagerType typeId="5598ae51-0d78-45e6-99a2-2b724b7d40ea" valueTypeId="58f791d3-6237-4ff6-bbbb-7b3f922e8a5b"/>
+    <valueKeyType typeId="7fd331a3-93df-584e-8f4e-a80f070a083e" valueTypeId="d58b2313-3cdd-58b3-9a7e-2fbd0ed68285"/>
+  </producedTypes>
+  <name>РазмерШрифта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер шрифта</value>
+  </synonym>
+  <type>
+    <types>EnumRef.РазмерШрифта</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

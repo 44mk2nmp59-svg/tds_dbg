@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62a1681e-5d90-4980-b3c9-433b4d2871ce">
+  <producedTypes>
+    <managerType typeId="40dd606d-c099-4a3c-a1a5-17542678080a" valueTypeId="f3e60b65-e29c-4c88-bf25-6974492765f1"/>
+    <valueManagerType typeId="3a8b3fcc-e5ef-47de-9966-aa6195af6827" valueTypeId="6a942659-81cf-4780-8609-9729c9089629"/>
+    <valueKeyType typeId="390f3f23-4265-5de7-9d5b-f875314a1988" valueTypeId="f5427a25-1fc6-5f90-b671-5924796b0231"/>
+  </producedTypes>
+  <name>ВерсияФорматаОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия формата обмена</value>
+  </synonym>
+  <comment>Версия формата обмена последней загрузки. Используется при обмене через файл.</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

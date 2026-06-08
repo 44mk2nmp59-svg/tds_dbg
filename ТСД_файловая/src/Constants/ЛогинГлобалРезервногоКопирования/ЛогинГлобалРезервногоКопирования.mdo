@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1b577d4-6581-4731-82f1-29abf882f461">
+  <producedTypes>
+    <managerType typeId="0f237b76-33bd-4388-9974-4e9c95841365" valueTypeId="d4354db0-4c1f-4b6d-b2a1-b8f532b5b282"/>
+    <valueManagerType typeId="19ae68fb-74c8-4cd3-b1cc-2fef8c0e2bdb" valueTypeId="5b04b47c-ed99-4731-8a11-a4c3d762543b"/>
+    <valueKeyType typeId="6b80c46e-3d0b-5252-af7d-0bf0d3ec9f60" valueTypeId="2eba55de-a6bd-510a-93ff-35f2fd2a37e5"/>
+  </producedTypes>
+  <name>ЛогинГлобалРезервногоКопирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логин глобал резервного копирования</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0c74e98-46c7-4f86-b3d8-bbfcbad22749">
+  <producedTypes>
+    <selectionType typeId="f5cf3699-baec-40bb-b255-ffa65d8fd5d9" valueTypeId="2025db37-d1c0-4bfd-be41-42864056a99e"/>
+    <listType typeId="f1024cc9-c885-488f-9273-4584bb17af39" valueTypeId="8fdd0eaf-9583-4c1d-9f4f-8e6cb0082af0"/>
+    <managerType typeId="663aa502-277d-4ff1-bff2-43e820ad076c" valueTypeId="24e3ac16-08f1-40df-9093-7f6ccc3924a6"/>
+    <recordSetType typeId="70b2c5e7-cf9c-4d38-be07-75294069763d" valueTypeId="25ebb090-4551-421d-b1fc-421fb3c5f4f2"/>
+    <recordKeyType typeId="3f16d7c2-e6b1-461c-8dbf-ff15dad94777" valueTypeId="00ec51c9-9f83-4874-aef5-12ed074e5de4"/>
+    <recordType typeId="f5148dd7-8a21-44ea-abcf-b6c325631b41" valueTypeId="80ee00f8-cc15-4eda-9c06-5ba420202ce1"/>
+    <recordManagerType typeId="ae320934-04ee-4672-95a4-490ad8bcc125" valueTypeId="fd21c94a-63de-4a47-9d04-187b63f788eb"/>
+  </producedTypes>
+  <name>ПолучателиОтчетовПоПочте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получатели отчетов по почте</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПолучателиОтчетовПоПочте.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПолучателиОтчетовПоПочте.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="354af5bd-7e2e-40c0-b63c-3e3c5054274d">
+    <name>АдресЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес электронной почты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="1ee1f81d-4e7f-4b22-ab0a-8ebce0fde88c">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ffc2fb8e-fbbb-4a32-aef7-1997cb63db08">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

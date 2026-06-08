@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82c51f55-49ef-46f5-a787-db0e321c00b1">
+  <producedTypes>
+    <selectionType typeId="bd5d1671-6104-493f-8bc0-4a09077323ad" valueTypeId="d1955898-5f62-482b-acc0-eb5e4d4c103e"/>
+    <listType typeId="a05f8378-8c5b-40cc-8419-cc0af98780df" valueTypeId="4022223f-8de9-49dd-9e3e-ca219c683644"/>
+    <managerType typeId="0e264617-a59c-4076-9bb9-d43eae377d10" valueTypeId="eea44a11-0f2f-402d-85c1-843439622f37"/>
+    <recordSetType typeId="8c041de8-0931-42df-b6e7-09cfe8f1d914" valueTypeId="fb4726fa-ace5-4378-96d1-178d93c3b2e3"/>
+    <recordKeyType typeId="15cf3c12-5833-4cc2-b004-f2f2d90f4251" valueTypeId="7c30ed16-3998-42d2-9e29-9642b2f8cc79"/>
+    <recordType typeId="d52f8201-96c4-4b74-aa01-76e19273173b" valueTypeId="3ac5236b-cc69-4091-a362-4e4b99d7efc5"/>
+    <recordManagerType typeId="9a929e2d-ff70-413b-99c3-432c85d1a09f" valueTypeId="8ffb1d34-6cfe-4648-8dd0-a36cfeeb955f"/>
+  </producedTypes>
+  <name>ТокенFCM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токен FCM</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5c26de53-ee3e-4f81-9094-b8db63cb55cb">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="4bcbf3ba-aba6-4b81-ae48-1451620bb19d">
+    <name>ID_Устройства</name>
+    <synonym>
+      <key>ru</key>
+      <value>I d устройства</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

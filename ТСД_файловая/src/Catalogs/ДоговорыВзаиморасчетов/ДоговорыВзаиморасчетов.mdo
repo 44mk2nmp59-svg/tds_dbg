@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="934dc5a5-0a43-41f9-8e5f-f59a8520d57c">
+  <producedTypes>
+    <objectType typeId="d6a81fcf-3c45-4116-89bb-f7a1ddcddb05" valueTypeId="e1f2febd-6661-4c6b-941e-d15d98b1b2a5"/>
+    <refType typeId="c9069db0-865c-450e-8f10-c3e5dfb4e4c2" valueTypeId="a12b9239-f1a4-4a94-ac61-147ef2b18bc9"/>
+    <selectionType typeId="b5120da5-b0f7-42e8-a5bd-abb71bbcb9c5" valueTypeId="72c72ef0-7028-4b5c-b3c2-947b2bc4189f"/>
+    <listType typeId="288caf13-f2fe-4bb8-b151-c128d687a190" valueTypeId="59e37313-61b8-461e-8f05-c92290bdcb6a"/>
+    <managerType typeId="409994f9-15ce-4186-909f-0db80f0884cf" valueTypeId="9f1ac259-d6bf-4d54-9118-2250c6d382d6"/>
+  </producedTypes>
+  <name>ДоговорыВзаиморасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры взаиморасчетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДоговорыВзаиморасчетов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ДоговорыВзаиморасчетов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ДоговорыВзаиморасчетов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ДоговорыВзаиморасчетов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="6c67fc48-f687-433a-94bd-fb33b66475f1">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="cac94a5c-9d82-453d-bfdf-86acbd9888ab">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7a8b6dd4-a03c-4109-8f17-547ba888b4bd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e998a14a-5af4-461c-9166-81b9f3bdc996">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

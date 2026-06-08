@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="301845e7-80ce-42e8-b204-9ae6dec66b6f">
+  <producedTypes>
+    <objectType typeId="35be9691-73fb-4c6e-8c54-74f8df3896d1" valueTypeId="d06e73d2-232a-4f73-90a5-5ceb344e871f"/>
+    <managerType typeId="e18dd51a-b570-4f73-bd33-4ff3da579ec7" valueTypeId="b423554c-2390-4e39-ab5e-e607818043a9"/>
+  </producedTypes>
+  <name>ИнициализацияОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инициализация оборудования</value>
+  </synonym>
+  <defaultForm>DataProcessor.ИнициализацияОборудования.Form.ИнициализацияСканераШтрихкодов</defaultForm>
+  <forms uuid="720a0dfa-7d78-4600-b3c0-c535d19b7b41">
+    <name>ИнициализацияСканераШтрихкодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инициализация сканера штрихкодов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

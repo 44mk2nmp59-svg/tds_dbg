@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a01361f2-f10e-4265-80e7-524360674f1c">
+  <producedTypes>
+    <refType typeId="b6101bea-61f8-4a7c-953a-ff867a3d0ccb" valueTypeId="39a1ffd3-33d8-419c-95f5-16c933d8e505"/>
+    <listType typeId="2401aec5-468f-4d05-8500-d3095de01116" valueTypeId="e2580b78-9b8c-41e3-8188-ec18ea1227c5"/>
+    <managerType typeId="fa124b7f-9721-4271-8d2c-150e61d35765" valueTypeId="3e95a152-df0c-4b0b-adcc-c1e0a2cccc9b"/>
+  </producedTypes>
+  <name>БазаПодключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>База подключения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f1b549c2-83dc-4822-a8cd-30321dba4998">
+    <name>ТК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aae4b8b0-5590-417b-8686-33adf0e9783b">
+    <name>Общепит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общепит</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

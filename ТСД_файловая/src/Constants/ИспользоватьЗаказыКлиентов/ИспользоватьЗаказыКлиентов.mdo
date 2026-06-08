@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f0cf597-aab0-4ae6-b674-8605eb6ab314">
+  <producedTypes>
+    <managerType typeId="767c508a-5bbb-496e-9d15-3bc0dfa5a8dd" valueTypeId="26cb454d-5a4d-4aa3-8fe6-8b10496a4b5a"/>
+    <valueManagerType typeId="ec1dbcc3-db9b-4aef-809b-523b0dbf06c4" valueTypeId="ea81e7f0-0d7f-46b4-86ea-0a119f04698d"/>
+    <valueKeyType typeId="5210dbf5-1c81-5e89-a7a1-df0feeced9e2" valueTypeId="a2f34e9a-2a6a-5e4d-9efb-de4314762414"/>
+  </producedTypes>
+  <name>ИспользоватьЗаказыКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать заказы клиентов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

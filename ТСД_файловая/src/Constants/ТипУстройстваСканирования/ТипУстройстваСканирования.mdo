@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="079ed5ec-6844-46ca-8d82-01033e0e562e">
+  <producedTypes>
+    <managerType typeId="4de32efd-afcd-4114-abad-813de2861f65" valueTypeId="32176b3c-f076-45dd-b306-01af051da022"/>
+    <valueManagerType typeId="edec440e-d115-47c4-a518-8ad320951774" valueTypeId="043f30d9-ebbd-4f89-a292-d91b4fbe82c4"/>
+    <valueKeyType typeId="876a8602-1390-5146-b565-e9b608d24820" valueTypeId="6205551d-af7c-578a-bfef-2dd02e7b6c22"/>
+  </producedTypes>
+  <name>ТипУстройстваСканирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип устройства сканирования</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ТипыУстройствСканирования</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f93429c-9242-4487-9be7-902d27907672">
+  <producedTypes>
+    <objectType typeId="2cff9c56-6590-4028-91bc-f88b93ade10d" valueTypeId="016591ad-416f-4746-ac8d-28081bb0ed5f"/>
+    <managerType typeId="7f9b30c5-0ea0-44e3-a39c-554c30a81408" valueTypeId="61d0f19b-6162-44b1-af1f-066bfedc4e11"/>
+  </producedTypes>
+  <name>Логистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логистика</value>
+  </synonym>
+  <defaultForm>DataProcessor.Логистика.Form.Форма</defaultForm>
+  <tabularSections uuid="d22d6595-809b-44c1-910f-fab82b1c2fa6">
+    <producedTypes>
+      <objectType typeId="acc29200-5ad6-4a88-b4f1-6f5e964d4b47" valueTypeId="993ab404-f56c-4ccd-8ce8-78a33db3473a"/>
+      <rowType typeId="aad42928-768b-410b-8f7d-c6d2df79fc50" valueTypeId="9268b7be-c242-4e38-9143-d702f0ba6aa7"/>
+    </producedTypes>
+    <name>Документы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы</value>
+    </synonym>
+    <attributes uuid="659a4567-b06b-4d3f-98ae-818fa8fc7ead">
+      <name>ИД_ТТН</name>
+      <synonym>
+        <key>ru</key>
+        <value>ТТН</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+          <fixed>true</fixed>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value>                                    </value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="7f64467b-9cf1-4526-bd9e-a577c729ed20">
+      <name>ИД_УП</name>
+      <synonym>
+        <key>ru</key>
+        <value>И д УП</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>36</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="0ba747f6-1925-42d7-93a5-62a2027221b2">
+      <name>Маршрут</name>
+      <synonym>
+        <key>ru</key>
+        <value>Маршрут</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="db979d91-2f6b-404b-b8c8-0f8529002f24">
+      <name>СкладСборки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Склад сборки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>120</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="566841cd-0f40-48cf-a6f8-a4aac7e311d6">
+      <name>ТочкаДоставки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Точка доставки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>120</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="c6df4d54-645e-45b3-a448-3ac1ee1480a9">
+      <name>ТЧ_Global_ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Т ч global ID</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0380fe40-6fdc-47b2-9804-529e5040c2f6">
+      <name>сч_док</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сч док</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="99cabfe3-9efa-436e-9cd0-c29d00beee9f">
+      <name>сч_скан</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сч скан</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6d314722-ddae-4a9a-9ade-e79d742e9515">
+      <name>Короб</name>
+      <synonym>
+        <key>ru</key>
+        <value>Короб</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="823da2fb-e657-4d70-8b2a-0cf35e690de4">
+      <name>НомерТУ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер ТУ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>12</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="1b3dab38-4bd4-4051-a222-cf1353dd745c">
+      <name>РК</name>
+      <synonym>
+        <key>ru</key>
+        <value>РК</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="a97ddb9e-afb7-48b3-8936-064e314cd2d8">
+    <producedTypes>
+      <objectType typeId="0339a316-bc32-42d3-9bbc-62e93167588c" valueTypeId="2bd4ebce-7380-455a-8add-bc57895fb6eb"/>
+      <rowType typeId="3a4a643a-0cef-4884-ae43-9e37ee176c5c" valueTypeId="11b0ec9c-5c2b-46c1-b320-0176f507d1a4"/>
+    </producedTypes>
+    <name>АдресаДоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адреса доставки</value>
+    </synonym>
+    <attributes uuid="ab55d98d-898d-40d0-830e-e2f9ef229d48">
+      <name>ТЧ_Global_ID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Т ч global ID</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9376d232-ec59-4c22-83e5-f44a75890104">
+      <name>ТД</name>
+      <synonym>
+        <key>ru</key>
+        <value>ТД</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>120</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="e8940824-e676-4c79-942b-d58d91ddd883">
+      <name>сч_док</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сч док</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2710ab80-f8d4-4466-849e-afb3c244847b">
+      <name>сч_скан</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сч скан</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="aec3e31d-a612-401f-b232-4da5c8435bac">
+      <name>РК</name>
+      <synonym>
+        <key>ru</key>
+        <value>РК</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="01d36122-f853-4bae-9719-5399a11db610">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="27136bf4-c700-47eb-aced-6d4ec70514b5">
+    <name>ФормаЗипПакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма зип пакет</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="347e210e-cfe2-467f-b35f-4d5d4e0e2aa9">
+    <name>ФормаСортування</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сортування</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="349904e3-3ae5-47ba-8266-17690dc02e39">
+    <name>ФормаРК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма РК</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="541b413f-6811-4ba6-ae92-c8b707e0ab60">
+    <name>ФормаДоставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма доставка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

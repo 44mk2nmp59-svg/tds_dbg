@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fd3d066-0616-4342-824c-f27b72627b97">
+  <producedTypes>
+    <refType typeId="0ad5925b-a225-4cdc-abba-770c72532aca" valueTypeId="afc784f2-ab67-40a5-8b72-1cccb66ebfaf"/>
+    <listType typeId="310bd10e-ac8a-478d-a970-d2b2860dbb94" valueTypeId="b30a1159-4ed1-416d-ba40-f12385a5cedc"/>
+    <managerType typeId="d28fb1aa-0a7a-432d-bef6-5cccf6f30e23" valueTypeId="69cb9be5-a49a-4558-8c2b-c66a387b0203"/>
+  </producedTypes>
+  <name>ТипыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы документов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8cd703cb-2fa9-471e-a0a9-b56fdf492131">
+    <name>ПриемПоЗаказу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прийом замовлення</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ba72367-8a85-416c-83a8-23e04a48ac86">
+    <name>ПриемТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прийом EDI</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98e41824-3274-423b-b501-5fcd922dde95">
+    <name>Инвентаризация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Інвентаризація</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="51a3d811-ad3e-4e17-bd69-59d3cda36626">
+    <name>Перемещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переміщення</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29d51a2a-0d1f-483f-bad6-c1746fed7b33">
+    <name>СписокПриходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список надходжень</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92255b33-e2da-47ad-85f6-2401c57bdf29">
+    <name>Переоценка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоцінка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d527c63-2111-45aa-96c7-796de85c1d6c">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завдання</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="888a2a90-50ff-4298-bf62-1cf7aed23b45">
+    <name>Печать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Друк</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f8898c94-efb2-4639-a70c-2afc3775c005">
+    <name>Zak</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замовлення постачальнику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8920155a-db1a-43bc-a08b-5bc740c61235">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>ServiceDesk</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa3d564e-93de-4a59-b466-cad152f9a0d3">
+    <name>Рекламация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекламація</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

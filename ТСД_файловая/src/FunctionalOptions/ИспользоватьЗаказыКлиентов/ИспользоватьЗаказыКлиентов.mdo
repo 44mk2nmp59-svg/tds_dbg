@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6ec88e5-d30d-43c1-b4af-d3bfbd06b069">
+  <name>ИспользоватьЗаказыКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать заказы клиентов</value>
+  </synonym>
+  <location>Constant.ИспользоватьЗаказыКлиентов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.Заказы</content>
+</mdclass:FunctionalOption>

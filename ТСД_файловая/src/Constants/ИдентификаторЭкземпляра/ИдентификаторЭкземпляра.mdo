@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14d90256-9cd1-45fa-81f4-6d3ae952c1d4">
+  <producedTypes>
+    <managerType typeId="10b88e83-0e0e-4b6b-88d8-552377b5295f" valueTypeId="86c8c865-e918-4154-8d50-676212d65381"/>
+    <valueManagerType typeId="b985620c-06fd-4862-aae4-8f67634d5de1" valueTypeId="77da1502-9c53-4da8-a695-5c84d6deb427"/>
+    <valueKeyType typeId="d8bd7f55-9a96-5c9e-9af9-503a56bf551e" valueTypeId="2a6b2794-36bd-5229-bb8f-b145b8c542d8"/>
+  </producedTypes>
+  <name>ИдентификаторЭкземпляра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор экземпляра</value>
+  </synonym>
+  <type>
+    <types>UUID</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

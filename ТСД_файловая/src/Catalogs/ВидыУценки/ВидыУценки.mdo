@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6a0e182-3a05-42da-afd3-ca52a3365996">
+  <producedTypes>
+    <objectType typeId="780fbf8a-80e3-48ee-9609-2fa6943e3fa8" valueTypeId="790c3254-5dce-490f-91ec-81cdaf18e6a0"/>
+    <refType typeId="d426256e-9a5b-4236-90a3-614f40b6624a" valueTypeId="cc55d104-c419-486f-b51f-9b98c41b0f0d"/>
+    <selectionType typeId="26cf12da-1e52-49f4-b39c-3128cd1def03" valueTypeId="0e6cf14f-1f16-4e48-b7aa-5dce2c5b268e"/>
+    <listType typeId="660a668c-f8c6-4dc3-b7d0-eb9103873927" valueTypeId="4413338d-d970-4e08-813f-6fa763dd9e05"/>
+    <managerType typeId="33c76ff8-f47f-460e-821f-432dbf955cf1" valueTypeId="b6f06d4c-15a3-48d4-957b-9269ad7fd9a0"/>
+  </producedTypes>
+  <name>ВидыУценки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды уценки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыУценки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыУценки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="06453d6a-f9db-4ada-8f68-019eb3758c20">
+      <name>Уценка25</name>
+      <description>Уценка 25%</description>
+      <code xsi:type="core:StringValue">
+        <value>25</value>
+      </code>
+    </items>
+    <items id="9c3aac20-61cb-47f2-9526-2d67976c3abd">
+      <name>Уценка50</name>
+      <description>Уценка 50%</description>
+      <code xsi:type="core:StringValue">
+        <value>50</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

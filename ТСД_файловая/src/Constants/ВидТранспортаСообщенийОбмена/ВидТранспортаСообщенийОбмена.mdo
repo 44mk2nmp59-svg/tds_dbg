@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed352aba-78db-4340-bc4b-4e241a37ab70">
+  <producedTypes>
+    <managerType typeId="01c6ca40-850c-4194-bbef-f62794162678" valueTypeId="a9dc4a18-cef8-49df-b02c-9da33a2cdb94"/>
+    <valueManagerType typeId="1f9409e9-5a11-437d-87bf-451b2bee1337" valueTypeId="6a38396a-e54a-4c8b-97ff-e1537c973a51"/>
+    <valueKeyType typeId="7b82af09-934c-563a-9cdd-8458878eaafb" valueTypeId="8b62cac0-9fb7-57a2-ad99-b2c07eb67f58"/>
+  </producedTypes>
+  <name>ВидТранспортаСообщенийОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид транспорта сообщений обмена</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ВидыТранспортаСообщенийОбмена</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

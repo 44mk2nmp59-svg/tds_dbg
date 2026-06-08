@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb561d0d-3c52-4391-a7d9-7d3a7894c7aa">
+  <producedTypes>
+    <managerType typeId="d4d15610-e69c-4d22-958f-fc5262860b4b" valueTypeId="97c32e6f-3db2-494d-8224-b1aad79fd686"/>
+    <valueManagerType typeId="25c90a49-85b5-4925-86e4-933345ec336a" valueTypeId="07490b92-f845-43fb-92b5-d0bc79d18e0a"/>
+    <valueKeyType typeId="93e7dc2c-e505-54f5-925d-86782207e05b" valueTypeId="39f4b91c-dfb2-5b12-abb2-42465a2a6a93"/>
+  </producedTypes>
+  <name>ИНН</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИНН</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>12</length>
+    </stringQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

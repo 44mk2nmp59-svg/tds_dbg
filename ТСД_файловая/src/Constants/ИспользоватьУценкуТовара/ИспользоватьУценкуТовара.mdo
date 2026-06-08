@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb368840-626f-4059-8571-1334399213b9">
+  <producedTypes>
+    <managerType typeId="d6d5172f-1adf-4133-9788-fde61a6bb72a" valueTypeId="28770970-7792-4a02-8417-49a6661cd4b3"/>
+    <valueManagerType typeId="676d9fef-b628-4db3-8647-26f4d6c231a7" valueTypeId="50d8997e-1872-49e9-a0bc-a528a3fd7bcc"/>
+    <valueKeyType typeId="3b1f0449-e86b-47f6-86ac-f283b7f7f9d0" valueTypeId="7154ab15-9cc6-42d2-874d-f59c55074a1b"/>
+  </producedTypes>
+  <name>ИспользоватьУценкуТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать уценку товара</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

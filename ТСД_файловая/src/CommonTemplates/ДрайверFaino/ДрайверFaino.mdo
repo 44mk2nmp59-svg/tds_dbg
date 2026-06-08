@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4cc4394-257d-43fd-a79d-c6d5f09e0872">
+  <name>ДрайверFaino</name>
+  <synonym>
+    <key>ru</key>
+    <value>Драйвер faino</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d0d3f04-6508-4115-8b15-86acabb7f58b">
+  <producedTypes>
+    <managerType typeId="43ff9d1e-484e-47a9-905b-26401f13aeae" valueTypeId="a2a7d50e-92b0-4918-b911-b9d10777590c"/>
+    <valueManagerType typeId="62380e8d-6823-4725-8e24-d8a2a0bd1d49" valueTypeId="92ace835-1947-4324-ba9a-fa4d5a84d0f1"/>
+    <valueKeyType typeId="768b3869-18dc-42a3-9504-1c8411cdb08b" valueTypeId="e3baaf84-c136-40a7-b129-7efe95638955"/>
+  </producedTypes>
+  <name>ИспользоватьФото</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать фото</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

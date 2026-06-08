@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="179c4d3a-2f86-468b-8458-d9189be3b428">
+  <name>СтрокаПодключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Строка подключения</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>250</length>
+    </stringQualifiers>
+  </type>
+</mdclass:SessionParameter>

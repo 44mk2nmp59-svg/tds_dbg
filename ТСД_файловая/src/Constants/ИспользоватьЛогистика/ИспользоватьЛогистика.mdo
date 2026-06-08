@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="914a60a5-c91e-4a46-b6b4-1ff50a20f2af">
+  <producedTypes>
+    <managerType typeId="4d9360da-4d15-40eb-927c-1d691b67ad16" valueTypeId="34449c8f-21d9-460c-acee-51a3b1e76d68"/>
+    <valueManagerType typeId="797fe2f5-16b2-42db-9e53-4866d53dd213" valueTypeId="a93ad111-0f4d-44fa-9884-6325e61d7b93"/>
+    <valueKeyType typeId="648820c2-44c4-44f3-a065-3a11fa988869" valueTypeId="b9318788-2f5b-4f79-95d4-225d3189eff5"/>
+  </producedTypes>
+  <name>ИспользоватьЛогистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать логистика</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

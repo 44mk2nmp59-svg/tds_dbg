@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7773dceb-ded9-42dd-84c9-9db3252b8dbc">
+  <producedTypes>
+    <refType typeId="f782398f-bfd7-493c-b3d4-5e1e559b9a9a" valueTypeId="03ae6b91-e11f-40ac-a4ab-604dcc8e7370"/>
+    <listType typeId="5537ea73-fa5d-46d9-9e59-fef2e95632d6" valueTypeId="8b61625c-1d44-47c0-a6aa-861a49b423d3"/>
+    <managerType typeId="d30352a3-3e59-4d70-aa3a-09173b1a23a7" valueTypeId="c2796b7f-0016-4b7c-a37b-6a19357be969"/>
+  </producedTypes>
+  <name>ТипыУстройствСканирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы устройств сканирования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="030fd10f-a7e7-4cdf-b884-ed5f6b70b9be">
+    <name>ВстроеннаяКамера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встроенная камера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df066752-55c9-4e19-9771-9ac9534f4186">
+    <name>ВнешнийСканерШтрихкодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний сканер штрихкодов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

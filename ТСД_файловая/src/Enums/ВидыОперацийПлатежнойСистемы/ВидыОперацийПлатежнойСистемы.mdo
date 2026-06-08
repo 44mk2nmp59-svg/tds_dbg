@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df02c3ed-5017-4d77-bf96-02442ba5b32a">
+  <producedTypes>
+    <refType typeId="fabb1b7e-9678-486a-baf6-66f8f68df460" valueTypeId="6d7f2cfb-7456-42ef-ac83-7ce60a8f40e0"/>
+    <listType typeId="d0ff6bbb-940b-41b5-a48a-03b44503c6f7" valueTypeId="35cc8bc6-6218-42cc-b574-4ac3d3aaf5e9"/>
+    <managerType typeId="659e2c4a-99e3-45e3-be0c-ade2f661dce2" valueTypeId="46469ad3-7c64-4920-bcc6-8091e577a01c"/>
+  </producedTypes>
+  <name>ВидыОперацийПлатежнойСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций платежной системы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7d9d7ff3-997f-421d-a966-ec96de778cad">
+    <name>Оплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ecdbafa7-5712-4858-9c60-36d6fa839c02">
+    <name>ВозвратОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат оплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05bd254f-b877-47d8-a375-115c8f8acffc">
+    <name>ОтменаОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена оплаты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

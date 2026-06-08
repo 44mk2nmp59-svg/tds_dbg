@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5b8b39e-c95d-48fb-990f-04cf9e579421">
+  <producedTypes>
+    <objectType typeId="aeb0667d-edf3-4204-b631-37ef3734409d" valueTypeId="a73db0a9-9c5b-4316-9dcd-850cd248cd90"/>
+    <refType typeId="35c85e34-8a48-40a4-a6b1-237d929ae5b0" valueTypeId="90fb8271-99b2-41a0-a9c6-10038798bfb9"/>
+    <selectionType typeId="c0e6cf15-8af9-4ff6-b632-4466dda63982" valueTypeId="c3bbb7d8-24f1-431c-9df6-1c95954c7301"/>
+    <listType typeId="511b1611-a65d-4b2f-a23f-9d8f229d9cf0" valueTypeId="e8873625-834d-404f-9620-affcf49a9ee8"/>
+    <managerType typeId="21279379-d1f3-4f10-aaa8-582719d3ab58" valueTypeId="bf6dbfa0-1382-432c-b773-31a81572a0b4"/>
+  </producedTypes>
+  <name>СтатьиДоходовИРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи доходов и расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиДоходовИРасходов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатьиДоходовИРасходов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>8</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="57c90627-10f6-40ea-94a4-2c2736b2f894">
+      <name>КомпенсацияПоставщиком</name>
+      <description>Компенсация поставщиком</description>
+      <code xsi:type="core:StringValue">
+        <value>YY000562</value>
+      </code>
+    </items>
+    <items id="0aacea66-b05b-40a9-99a7-4e399387da8e">
+      <name>НеКондиция</name>
+      <description>Не кондиция</description>
+      <code xsi:type="core:StringValue">
+        <value>YY000497</value>
+      </code>
+    </items>
+    <items id="6cc82e67-592c-4813-a93b-8c4f07522e0b">
+      <name>СписаниеОвощейИФруктов</name>
+      <description>Списание овощей и фруктов</description>
+      <code xsi:type="core:StringValue">
+        <value>YY000496</value>
+      </code>
+    </items>
+    <items id="a590ea25-a231-4536-a059-a54c70f9083a">
+      <name>СписаниеПродукцииПроизводства</name>
+      <description>Списание продукции производства</description>
+      <code xsi:type="core:StringValue">
+        <value>YY000565</value>
+      </code>
+    </items>
+    <items id="df817987-0663-48bd-9258-83bb9a3d2595">
+      <name>СписаниеСопутствующихОтходов</name>
+      <description>Списание сопутствующих отходов</description>
+      <code xsi:type="core:StringValue">
+        <value>YY000488</value>
+      </code>
+    </items>
+    <items id="837a7efc-f962-4416-9bc0-f18f1e7fba5e">
+      <name>ХозНужды</name>
+      <description>Хоз нужды</description>
+      <code xsi:type="core:StringValue">
+        <value>YY000437</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

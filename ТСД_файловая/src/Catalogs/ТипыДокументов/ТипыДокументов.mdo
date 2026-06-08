@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23f94424-764a-40d5-9c3e-556ada8f0c3c">
+  <producedTypes>
+    <objectType typeId="8ab76aa6-b95e-4307-81dd-4394e12ddb35" valueTypeId="c332191f-9c49-463a-8538-5bc1174c50d2"/>
+    <refType typeId="af8e04d5-90c2-4578-975d-784c090b5431" valueTypeId="b3df7f84-ef24-41ac-8cb4-24dbccdd5f64"/>
+    <selectionType typeId="9de1e5ad-f37b-4cb0-a1d2-5fbe42a42d34" valueTypeId="92aa943d-c86a-4795-90dc-613da23feb00"/>
+    <listType typeId="6837c093-d5fc-4845-b22f-700404c60cab" valueTypeId="d84a14d9-3adc-47ea-8fa5-e30bea8619d9"/>
+    <managerType typeId="a0443fe6-4a3b-4cd8-9644-c883b4939a3c" valueTypeId="4c82db8a-9580-4a2e-8706-012f47b3ee9c"/>
+  </producedTypes>
+  <name>ТипыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыДокументов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыДокументов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="900f2c36-88ea-4f98-856c-483f77533cd5">
+      <name>БезакцептныйПрием</name>
+      <description>Безакцептне приймання</description>
+      <code xsi:type="core:NumberValue">
+        <value>27</value>
+      </code>
+    </items>
+    <items id="620c7ef3-686e-4d54-873c-e561d1a8f9ad">
+      <name>БезакцептныйПриемPKG</name>
+      <description>Безакцептный Прием PKG</description>
+      <code xsi:type="core:NumberValue">
+        <value>31</value>
+      </code>
+    </items>
+    <items id="bafc9373-98bc-489f-9770-db12aad40098">
+      <name>ВыдачаДС</name>
+      <description>Видача ДС</description>
+      <code xsi:type="core:NumberValue">
+        <value>33</value>
+      </code>
+    </items>
+    <items id="d4ba64ef-6b10-4d04-83cb-9ae2c77941bb">
+      <name>ЗаданиеИН</name>
+      <description>Завдання інв-ція</description>
+      <code xsi:type="core:NumberValue">
+        <value>11</value>
+      </code>
+    </items>
+    <items id="8c753bb7-fdbd-48c8-8ead-fc5f70e1c3e2">
+      <name>Задание</name>
+      <description>Задание</description>
+      <code xsi:type="core:NumberValue">
+        <value>10</value>
+      </code>
+    </items>
+    <items id="06dd9358-27c7-4d3d-9c41-60bc3b6ed1f4">
+      <name>ЗаданиеВФ</name>
+      <description>Задание Верификация</description>
+      <code xsi:type="core:NumberValue">
+        <value>12</value>
+      </code>
+    </items>
+    <items id="277d5b53-9998-4f69-a94b-208cbc0d1d45">
+      <name>Zak</name>
+      <description>Замовлення</description>
+      <code xsi:type="core:NumberValue">
+        <value>17</value>
+      </code>
+    </items>
+    <items id="af744037-1968-4844-ab00-270c9a92dc59">
+      <name>Заявка</name>
+      <description>Заявка</description>
+      <code xsi:type="core:NumberValue">
+        <value>28</value>
+      </code>
+    </items>
+    <items id="13fd5426-eeb4-47f6-a0e1-e246500e1b49">
+      <name>Инвентаризация</name>
+      <description>Инвентаризация</description>
+      <code xsi:type="core:NumberValue">
+        <value>1</value>
+      </code>
+    </items>
+    <items id="7aa3161e-95db-4580-b81d-b5d7b0d941d0">
+      <name>ИнвентаризацияТБД</name>
+      <description>Инвентаризация ТБД</description>
+      <code xsi:type="core:NumberValue">
+        <value>18</value>
+      </code>
+    </items>
+    <items id="6588fb91-5dbf-47ba-bac5-bf2b36592165">
+      <name>Комплектация</name>
+      <description>Комплектация</description>
+      <code xsi:type="core:NumberValue">
+        <value>9</value>
+      </code>
+    </items>
+    <items id="d85551c7-c2d7-4a33-be8e-a4dcab25a72b">
+      <name>Контролер</name>
+      <description>Контролер</description>
+      <code xsi:type="core:NumberValue">
+        <value>19</value>
+      </code>
+    </items>
+    <items id="d4e6ee15-1211-4d46-8d86-02e83a607079">
+      <name>ЛокальнаяИнвентаризация</name>
+      <description>Локальная инвентаризация</description>
+      <code xsi:type="core:NumberValue">
+        <value>3</value>
+      </code>
+    </items>
+    <items id="dfbea187-8635-4b90-bcdc-180eb2a27fa2">
+      <name>МаршрутныйЛист</name>
+      <description>Маршрутный лист</description>
+      <code xsi:type="core:NumberValue">
+        <value>25</value>
+      </code>
+    </items>
+    <items id="61f86ae3-1221-49f7-836c-a54d8f9523ab">
+      <name>ЗаданиеТБД</name>
+      <description>Не продається</description>
+      <code xsi:type="core:NumberValue">
+        <value>20</value>
+      </code>
+    </items>
+    <items id="3c1a8197-1514-4765-948c-2aac03ab38f4">
+      <name>ПроверкаСтандартов</name>
+      <description>Перевірка стандартів</description>
+      <code xsi:type="core:NumberValue">
+        <value>32</value>
+      </code>
+    </items>
+    <items id="1e27c80d-112f-4e98-9a1f-4f5fc9800135">
+      <name>ПеремещениеТоваров</name>
+      <description>Перемещение товаров</description>
+      <code xsi:type="core:NumberValue">
+        <value>7</value>
+      </code>
+    </items>
+    <items id="dfe8febc-8e18-42d1-9b8f-7922b29c4e01">
+      <name>ВозвратПеремещение</name>
+      <description>Переміщення (логістика)</description>
+      <code xsi:type="core:NumberValue">
+        <value>26</value>
+      </code>
+    </items>
+    <items id="dade9763-9052-4963-9547-92f7bb954e67">
+      <name>Переоценки</name>
+      <description>Переоценки</description>
+      <code xsi:type="core:NumberValue">
+        <value>8</value>
+      </code>
+    </items>
+    <items id="bcea22d2-0e40-4417-b508-aa165df9614a">
+      <name>Пересортица</name>
+      <description>Пересортиця</description>
+      <code xsi:type="core:NumberValue">
+        <value>34</value>
+      </code>
+    </items>
+    <items id="7b892499-a2b8-494e-a73c-feac9c234c6a">
+      <name>Печать</name>
+      <description>Печать</description>
+      <code xsi:type="core:NumberValue">
+        <value>13</value>
+      </code>
+    </items>
+    <items id="0153d0f1-1f2d-4e88-af2e-724adb43e467">
+      <name>ВозвратТоваров</name>
+      <description>Повернення постачальнику</description>
+      <code xsi:type="core:NumberValue">
+        <value>5</value>
+      </code>
+    </items>
+    <items id="84105089-35b6-43d5-88c2-62873eb5c6b8">
+      <name>Посетители</name>
+      <description>Посетители</description>
+      <code xsi:type="core:NumberValue">
+        <value>22</value>
+      </code>
+    </items>
+    <items id="845eb7cc-13d9-4b60-9b3c-95dac30de03d">
+      <name>ПриемПоЗаказу</name>
+      <description>Поступление товаров</description>
+      <code xsi:type="core:NumberValue">
+        <value>6</value>
+      </code>
+    </items>
+    <items id="44813c5c-fb49-4b85-8d45-f8fe6584b4b2">
+      <name>ПриемPKG</name>
+      <description>Прием PKG</description>
+      <code xsi:type="core:NumberValue">
+        <value>30</value>
+      </code>
+    </items>
+    <items id="b6989dc3-2988-4184-9de2-bf8ca3712415">
+      <name>ПриемПоПриходу</name>
+      <description>Прием по приходу</description>
+      <code xsi:type="core:NumberValue">
+        <value>15</value>
+      </code>
+    </items>
+    <items id="21ecbde3-af86-4f45-9564-bd1290e1d4ca">
+      <name>ПриходУход</name>
+      <description>Приход уход</description>
+      <code xsi:type="core:NumberValue">
+        <value>14</value>
+      </code>
+    </items>
+    <items id="9d0de3be-7678-40d9-a852-481cd1c1b81c">
+      <name>Рекламация</name>
+      <description>Рекламация</description>
+      <code xsi:type="core:NumberValue">
+        <value>29</value>
+      </code>
+    </items>
+    <items id="c7dcb2da-4edf-468b-98d3-65655a0153c8">
+      <name>Списание2</name>
+      <description>Списание</description>
+      <code xsi:type="core:NumberValue">
+        <value>4</value>
+      </code>
+    </items>
+    <items id="a47e9f5a-17b7-4c31-8456-3a31cb57abb1">
+      <name>ЗаданиеТНП</name>
+      <description>Термін придатності</description>
+      <code xsi:type="core:NumberValue">
+        <value>21</value>
+      </code>
+    </items>
+    <items id="b534a4aa-7f5a-4f38-b2ac-9895108cf775">
+      <name>Уведомление</name>
+      <description>Уведомление</description>
+      <code xsi:type="core:NumberValue">
+        <value>24</value>
+      </code>
+    </items>
+    <items id="7d155f9a-5bb1-4b14-bbc9-3f2c75458180">
+      <name>Уценка</name>
+      <description>Уценка</description>
+      <code xsi:type="core:NumberValue">
+        <value>2</value>
+      </code>
+    </items>
+    <items id="4a554b2b-7e0d-4946-8956-5b4cf5870267">
+      <name>Фото</name>
+      <description>Фото</description>
+      <code xsi:type="core:NumberValue">
+        <value>16</value>
+      </code>
+    </items>
+    <items id="eef1df09-cbf1-4ce5-b2ca-1014c510d27c">
+      <name>ФотоСчетчика</name>
+      <description>Фото счетчика</description>
+      <code xsi:type="core:NumberValue">
+        <value>23</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

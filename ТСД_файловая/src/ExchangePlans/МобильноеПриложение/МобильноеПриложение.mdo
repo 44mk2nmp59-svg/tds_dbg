@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cb939f0-ab6e-4da8-9595-5ffbf688764a" thisNode="e3e06e21-7b19-49c4-a581-7d1b0f43a74f">
+  <producedTypes>
+    <objectType typeId="2cc7be1d-c632-4340-8041-a1fa227368c0" valueTypeId="7b002858-5841-4bf8-b395-e7506c7cafda"/>
+    <refType typeId="45fd5415-c32e-401b-b57e-55bd051b7f3c" valueTypeId="c5c72f5a-5095-4875-8c37-7ed2e49430f0"/>
+    <selectionType typeId="45c17f56-7e9f-4229-8cb9-5403bb36a690" valueTypeId="162b7e37-f95f-495f-99d0-a8617c72af8f"/>
+    <listType typeId="71b60d8d-09a0-4b7e-a80c-072a83450263" valueTypeId="70cc9331-1b4d-455e-9490-e087a2baec65"/>
+    <managerType typeId="76897965-cb2e-4bc1-8358-b0cb2616cee1" valueTypeId="21093c05-3eea-42ba-8786-589f83b775cd"/>
+  </producedTypes>
+  <name>МобильноеПриложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильное приложение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.МобильноеПриложение.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.МобильноеПриложение.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>36</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

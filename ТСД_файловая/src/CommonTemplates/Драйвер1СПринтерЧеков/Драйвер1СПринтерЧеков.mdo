@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47a3f6cb-b5cc-4148-8014-e5539c8b722a">
+  <name>Драйвер1СПринтерЧеков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Драйвер &quot;1С:Принтер чеков&quot;</value>
+  </synonym>
+  <comment>Компонента использует библиотеки ImageMagick и libxml2. ImageMagick разработана ImageMagick Studio LLC, лицензия http://www.imagemagick.org/script/license.php. libxml2 разработана Daniel Veillard, лицензия http://www.xmlsoft.org/FAQ.html#License</comment>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

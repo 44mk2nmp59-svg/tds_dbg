@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eeb7c5e2-31a2-4930-9e40-96cfa90e7406">
+  <producedTypes>
+    <managerType typeId="2004e153-1819-4a28-9005-89a55b7bfd74" valueTypeId="f4221bf6-57e3-4552-879d-0435a30f00ef"/>
+    <valueManagerType typeId="075a6a07-833a-4969-9205-eda6792d28a5" valueTypeId="cf247e70-a664-4829-a7be-04c835d886be"/>
+    <valueKeyType typeId="f59ee382-430f-5196-9167-a251010f810d" valueTypeId="9b3b0f4e-5630-5896-95b1-94acb78367e0"/>
+  </producedTypes>
+  <name>ТочностьОтображенияКоличества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точность отображения количества</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>1</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

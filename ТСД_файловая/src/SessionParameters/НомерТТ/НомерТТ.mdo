@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30b13736-2511-4187-93fb-189f9055c554">
+  <name>НомерТТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер ТТ</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+</mdclass:SessionParameter>

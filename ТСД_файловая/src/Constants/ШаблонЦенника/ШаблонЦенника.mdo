@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41c50efe-4fe3-47f4-9027-75b9b501dc7c">
+  <producedTypes>
+    <managerType typeId="92a9d560-56bb-45d1-9d3e-81714f72951d" valueTypeId="213965eb-f3fa-4e81-af7e-af5df65bdf22"/>
+    <valueManagerType typeId="5d566d4d-c5e0-4163-86a7-79a7dacddd95" valueTypeId="b9688200-dcfe-4571-aa2b-63b3dd6d2548"/>
+    <valueKeyType typeId="cbbe94d2-7c6d-5ebb-b631-e79194b2575e" valueTypeId="6e07d971-d4a5-56b9-9fea-d1f7810604b6"/>
+  </producedTypes>
+  <name>ШаблонЦенника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон ценника</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

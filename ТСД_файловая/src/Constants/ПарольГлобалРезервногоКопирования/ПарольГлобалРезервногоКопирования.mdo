@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a9eefab-f968-4d90-95d8-b5bf90a2bb66">
+  <producedTypes>
+    <managerType typeId="d7ccd438-e77e-4fa4-9053-0dc1f06f74f7" valueTypeId="be0339c5-60a6-4a34-9d84-4c58384dfc17"/>
+    <valueManagerType typeId="bc8f6d76-f75c-4feb-8f8a-a5be1154a620" valueTypeId="0642daef-541e-49ac-87ae-aad4f6118cf6"/>
+    <valueKeyType typeId="acb4ce2d-cfe9-5365-b9b3-9ce126f3ec7e" valueTypeId="f1f45596-e9b1-5321-9fe5-eba428b20b06"/>
+  </producedTypes>
+  <name>ПарольГлобалРезервногоКопирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароль глобал резервного копирования</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

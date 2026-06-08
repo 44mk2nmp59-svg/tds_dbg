@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2db566c-0e97-4e8d-8255-496b2bc7ab5c">
+  <producedTypes>
+    <selectionType typeId="5730b2dc-d46f-42b1-b57c-0eb2dbdf763d" valueTypeId="ee8f4d69-1bf3-494d-a432-5f6485eaf788"/>
+    <listType typeId="5ecf5161-031a-4c32-a9ef-fde13dcd26ab" valueTypeId="e36493cf-10d6-4de6-858c-94d057d249d8"/>
+    <managerType typeId="aa21d18a-6d54-40f9-99d7-b68da775b43f" valueTypeId="a2e2a4e3-9a4f-4fc0-a089-8e3e9eefd44b"/>
+    <recordSetType typeId="fa3d8694-add6-41fe-a018-1d82076c5af4" valueTypeId="926c2d48-b81f-4497-be8c-35057c16b88d"/>
+    <recordKeyType typeId="46294f9b-6645-4ee9-b1c8-370a3183435d" valueTypeId="ef288c94-bd97-4acd-9587-bb368a38a596"/>
+    <recordType typeId="5c4d0dcd-8471-428a-bf5e-5634ceed3154" valueTypeId="28e6c8af-7d08-426b-abe6-b7666bfe19c6"/>
+    <recordManagerType typeId="e466cdbf-bb0f-4a73-8c54-b10004175b44" valueTypeId="30c560fe-dee0-41c2-837e-078f8ba46dd3"/>
+  </producedTypes>
+  <name>ДоступнаяНоменклатураДляВозвратара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступная номенклатура для возвратара</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="366e2c30-505f-4673-9f8f-fa39b8c91752">
+    <name>Артикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47b100be-1fdb-47f2-ad84-a0f81e214b05">
+  <producedTypes>
+    <managerType typeId="c7b680ed-2838-40eb-8e70-d0ab370aace9" valueTypeId="274e99fe-8a62-44cb-a4a4-b4fb00ae7b8b"/>
+    <valueManagerType typeId="24f365b0-4d73-46b8-9ec6-c73a6482338d" valueTypeId="39fca0c4-334c-40b8-b1c6-1768fd89ee97"/>
+    <valueKeyType typeId="417d1cdf-30e6-4e9c-a8a6-92e7934fd06e" valueTypeId="f250a983-6cf3-400a-a87f-5bfbabfc3431"/>
+  </producedTypes>
+  <name>ИспользоватьПечатьНаПринтер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать печать на принтер</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

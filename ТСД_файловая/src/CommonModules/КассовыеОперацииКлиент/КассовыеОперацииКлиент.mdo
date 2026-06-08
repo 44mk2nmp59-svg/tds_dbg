@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fbf234e-67b2-484a-ad11-7505c3d8f382">
+  <name>КассовыеОперацииКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассовые операции клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>

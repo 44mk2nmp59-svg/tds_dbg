@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="299296d8-468f-4db7-88ad-c41c61d92059">
+  <producedTypes>
+    <managerType typeId="318c178a-b689-4340-a29f-c037f5259f30" valueTypeId="c02330f6-7abf-4133-8dba-dc1852df6f4b"/>
+    <valueManagerType typeId="144347a3-8af8-4339-bd21-150bf7c14a7c" valueTypeId="288868c5-e8f9-489d-a96a-7184df505008"/>
+    <valueKeyType typeId="4d1e0275-4ce1-5005-b12d-4499b3c650e0" valueTypeId="e0f674df-bb5d-510d-b49c-f11ff1f38ce6"/>
+  </producedTypes>
+  <name>ИспользоватьСкидкиНаценки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать скидки наценки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

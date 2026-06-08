@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a29fad7-9bf5-410b-b554-262419722b65">
+  <producedTypes>
+    <managerType typeId="8ccf8d70-e1f8-41e0-91ea-e6618eb7c171" valueTypeId="41b1f732-0340-45e7-8e56-3304a9c26dc2"/>
+    <valueManagerType typeId="1deb7560-2e5b-467d-bc99-1ec0e770a26e" valueTypeId="ffe278e4-2294-47d1-939c-822f3fa9b814"/>
+    <valueKeyType typeId="c5d322b9-a333-4c4f-901b-19b8956fce8d" valueTypeId="1d43186b-7b32-4856-9810-e452f5540f5a"/>
+  </producedTypes>
+  <name>ИспользоватьКомплектациюТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать комплектацию товаров</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

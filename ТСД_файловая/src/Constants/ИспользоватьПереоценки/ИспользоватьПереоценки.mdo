@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19486977-ccd4-426e-925f-b9838b972908">
+  <producedTypes>
+    <managerType typeId="852cc276-d225-4d5a-9f41-8b1dbdb2e358" valueTypeId="331b3b5f-37f8-4029-b104-a3600dc60c29"/>
+    <valueManagerType typeId="64e7275d-d7ba-4534-a444-2e2f0e70d23e" valueTypeId="3385c90a-4538-44e7-876d-05562ed3a6a2"/>
+    <valueKeyType typeId="ad10609b-d591-4b50-934c-3d573df5c8cd" valueTypeId="ca283802-cbe4-459a-b8d9-6c65214206fe"/>
+  </producedTypes>
+  <name>ИспользоватьПереоценки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать переоценки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

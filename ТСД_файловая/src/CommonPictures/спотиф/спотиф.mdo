@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a826ade-d474-4313-a2e9-50d0b7c43456">
+  <name>спотиф</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спотиф</value>
+  </synonym>
+</mdclass:CommonPicture>

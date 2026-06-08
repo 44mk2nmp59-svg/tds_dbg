@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69c87947-ca6d-48c3-a61b-fd82987d5c0b">
+  <name>РезервноеКопированиеКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Резервное копирование клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>
