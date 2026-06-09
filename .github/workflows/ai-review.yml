@@ -4,6 +4,9 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   ai_review:
     runs-on: ubuntu-latest
@@ -15,8 +18,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Get PR diff
         id: diff
@@ -50,7 +51,7 @@ jobs:
             exit 1
           fi
 
-          DIFF_CONTENT=$(cat << 'EOF' ${{ steps.diff.outputs.diff }} EOF)
+          DIFF_CONTENT=$(cat << 'EOF'${{ steps.diff.outputs.diff }}EOF)
 
           DIFF_TRIMMED=$(printf "%s" "$DIFF_CONTENT" | head -c 24000)
 
