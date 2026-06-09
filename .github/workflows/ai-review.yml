@@ -50,10 +50,7 @@ jobs:
             exit 1
           fi
 
-          DIFF_CONTENT=$(cat << 'EOF'
-${{ steps.diff.outputs.diff }}
-EOF
-)
+          DIFF_CONTENT=$(cat << 'EOF' ${{ steps.diff.outputs.diff }} EOF)
 
           DIFF_TRIMMED=$(printf "%s" "$DIFF_CONTENT" | head -c 24000)
 
