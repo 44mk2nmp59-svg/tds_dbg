@@ -8,42 +8,53 @@ jobs:
   ai_review:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: read
+      pull-requests: write
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Get PR diff
         id: diff
         run: |
+          echo "Base ref: ${{ github.base_ref }}"
+          echo "Head ref: ${{ github.head_ref }}"
+
+          # Явно подтягиваем обе ветки
           git fetch origin ${{ github.base_ref }}
-          git diff origin/${{ github.base_ref }}...HEAD > diff.txt
+          git fetch origin ${{ github.head_ref }}
+
+          # Пытаемся построить diff между двумя удалёнными ветками
+          if git merge-base --is-ancestor origin/${{ github.base_ref }} origin/${{ github.head_ref }} || \
+             git merge-base --is-ancestor origin/${{ github.head_ref }} origin/${{ github.base_ref }}; then
+            echo "Branches have a merge base, using triple-dot diff"
+            git diff origin/${{ github.base_ref }}...origin/${{ github.head_ref }} > diff.txt
+          else
+            echo "No merge base, using full diff between branches"
+            git diff origin/${{ github.base_ref }} origin/${{ github.head_ref }} > diff.txt
+          fi
+
           echo "diff<<EOF" >> $GITHUB_OUTPUT
           cat diff.txt >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Ask DeepSeek for review
-        id: review
+        id: ask_deepseek
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
-          RESPONSE=$(curl -s https://api.deepseek.com/chat/completions \
-            -H "Content-Type: application/json" \
-            -H "Authorization: Bearer ${{ secrets.DEEPSEEK_API_KEY }}" \
-            -d "{
-              \"model\": \"deepseek-chat\",
-              \"messages\": [
-                {\"role\": \"system\", \"content\": \"Ты — строгий ревьюер кода 1С. Анализируй только diff. Пиши кратко и по делу.\"},
-                {\"role\": \"user\", \"content\": \"Проанализируй этот diff и напиши замечания:\n${{ steps.diff.outputs.diff }}\"}
-              ]
-            }" | jq -r '.choices[0].message.content')
+          if [ -z "${DEEPSEEK_API_KEY}" ]; then
+            echo "DEEPSEEK_API_KEY is not set"
+            exit 1
+          fi
 
-          echo "response<<EOF" >> $GITHUB_OUTPUT
-          echo "$RESPONSE" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          DIFF_CONTENT=$(cat << 'EOF'
+${{ steps.diff.outputs.diff }}
+EOF
+)
 
-      - name: Post review comment
-        uses: peter-evans/create-or-update-comment@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          issue-number: ${{ github.event.pull_request.number }}
-          body: |
-            ### 🤖 DeepSeek AI Review
-            ${{ steps.review.outputs.response }}
+          # Обрезаем слишком длинный diff (на вся
