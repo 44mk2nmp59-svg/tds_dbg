@@ -4,6 +4,9 @@ on:
   pull_request:
     types: [opened, synchronize]
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   review:
     runs-on: ubuntu-latest
@@ -12,35 +15,43 @@ jobs:
       pull-requests: write
 
     steps:
-      # Перед ревью обов'язково треба завантажити код репозиторію
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # НАШ КРОК (Усі пробіли зліва мають точно збігатися з кроком вище)
+      - name: Get PR diff
+        id: diff
+        run: |
+          git fetch origin ${{ github.base_ref }}
+          git fetch origin ${{ github.head_ref }}
+
+          git diff origin/${{ github.base_ref }}...origin/${{ github.head_ref }} > diff.txt
+
+          head -c 24000 diff.txt > diff_trimmed.txt
+
       - name: Run DeepSeek Code Review
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-        shell: /usr/bin/bash -e {0}
         run: |
           if [ -z "${DEEPSEEK_API_KEY}" ]; then
             echo "DEEPSEEK_API_KEY is not set"
             exit 1
           fi
-          
+
           SYSTEM_PROMPT="You are an expert code reviewer. Review the provided Git diff.
           Your response MUST be a single, valid JSON object with a single root key 'comments'.
           The 'comments' key must be an array of objects. Each object represents a review comment for a specific line.
-          Do NOT wrap the JSON response in markdown code blocks like \`\`\`json.
-          
+          Do NOT wrap the JSON response in markdown code blocks.
+
           Format for each comment object:
           {
-            \"path\": \"string (file path from diff, e.g., 'src/main.js')\",
-            \"line\": integer (the specific line number in the NEW file where the comment applies),
-            \"body\": \"string (concise, actionable feedback in Russian. Use markdown for code examples if needed)\"
+            \"path\": \"string (file path from diff)\",
+            \"line\": integer (line number in NEW file),
+            \"body\": \"string (concise actionable feedback in Russian)\"
           }
-          
-          If there are no issues found, return: {\"comments\": []}"
-          
+
+          If there are no issues found, return: {\"comments\": []}
+          "
+
           jq -n --rawfile diff diff_trimmed.txt --arg sys "$SYSTEM_PROMPT" '
             {
               model: "deepseek-chat",
@@ -51,20 +62,20 @@ jobs:
               response_format: { type: "json_object" }
             }
           ' > payload.json
-          
+
           RESPONSE=$(curl -sS https://api.deepseek.com/chat/completions \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer $DEEPSEEK_API_KEY" \
             -d @payload.json)
-          
+
           echo "$RESPONSE" > deepseek_response.json
-          
+
           if jq -e '.error' deepseek_response.json > /dev/null; then
-            echo "Помилка від API DeepSeek:"
+            echo "Ошибка DeepSeek:"
             jq -r '.error.message' deepseek_response.json
             exit 1
           fi
-          
+
           jq -r '.choices[0].message.content' deepseek_response.json > ai_comments.json
-          
-          echo "✅ Ревью успішно виконано. Результат збережено в ai_comments.json"
+
+          echo "Готово. Результат сохранён в ai_comments.json"
