@@ -24,11 +24,9 @@ jobs:
           echo "Base ref: ${{ github.base_ref }}"
           echo "Head ref: ${{ github.head_ref }}"
 
-          # Явно подтягиваем обе ветки
           git fetch origin ${{ github.base_ref }}
           git fetch origin ${{ github.head_ref }}
 
-          # Пытаемся построить diff между двумя удалёнными ветками
           if git merge-base --is-ancestor origin/${{ github.base_ref }} origin/${{ github.head_ref }} || \
              git merge-base --is-ancestor origin/${{ github.head_ref }} origin/${{ github.base_ref }}; then
             echo "Branches have a merge base, using triple-dot diff"
@@ -57,4 +55,55 @@ ${{ steps.diff.outputs.diff }}
 EOF
 )
 
-          # Обрезаем слишком длинный diff (на вся
+          DIFF_TRIMMED=$(printf "%s" "$DIFF_CONTENT" | head -c 24000)
+
+          PAYLOAD=$(jq -n --arg diff "$DIFF_TRIMMED" '
+            {
+              model: "deepseek-chat",
+              messages: [
+                {
+                  role: "system",
+                  content: "You are an experienced code reviewer. Review the following diff and provide concise, actionable feedback."
+                },
+                {
+                  role: "user",
+                  content: ("Here is the Git diff:\n\n" + $diff)
+                }
+              ]
+            }
+          ')
+
+          RESPONSE=$(curl -sS https://api.deepseek.com/chat/completions \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${DEEPSEEK_API_KEY}" \
+            -d "$PAYLOAD")
+
+          echo "$RESPONSE" > deepseek_response.json
+
+          REVIEW_TEXT=$(jq -r '.choices[0].message.content' deepseek_response.json)
+
+          echo "review<<EOF" >> $GITHUB_OUTPUT
+          echo "$REVIEW_TEXT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Post review comment
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          REVIEW_BODY="${{ steps.ask_deepseek.outputs.review }}"
+
+          if [ -z "$REVIEW_BODY" ] || [ "$REVIEW_BODY" = "null" ]; then
+            REVIEW_BODY="DeepSeek не вернул содержимое ревью или произошла ошибка при разборе ответа."
+          fi
+
+          PR_NUMBER=${{ github.event.pull_request.number }}
+
+          jq -n --arg body "$REVIEW_BODY" '
+            { body: $body }
+          ' > comment.json
+
+          curl -sS -X POST \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/issues/$PR_NUMBER/comments \
+            -d @comment.json
