@@ -75,10 +75,11 @@ jobs:
             }
           ' > payload.json
 
-          RESPONSE=$(curl -sS https://deepseek.com \
+           RESPONSE=$(curl -sS https://api.deepseek.com/chat/completions \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer ${DEEPSEEK_API_KEY}" \
-            -d @payload.json)
+            -d "$PAYLOAD")
+
 
           echo "$RESPONSE" > deepseek_response.json
 
