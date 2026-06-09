@@ -1,55 +1,32 @@
-name: AI Code Review (DeepSeek Inline)
+name: DeepSeek Code Review
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    types: [opened, synchronize]
 
 jobs:
-  ai_review:
+  review:
     runs-on: ubuntu-latest
-
     permissions:
       contents: read
       pull-requests: write
 
     steps:
+      # Перед ревью обов'язково треба завантажити код репозиторію
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Get PR diff
-        id: diff
-        run: |
-          echo "Base ref: ${{ github.base_ref }}"
-          echo "Head ref: ${{ github.head_ref }}"
-
-          git fetch origin ${{ github.base_ref }}
-          git fetch origin ${{ github.head_ref }}
-
-          if git merge-base --is-ancestor origin/${{ github.base_ref }} origin/${{ github.head_ref }} || \
-             git merge-base --is-ancestor origin/${{ github.head_ref }} origin/${{ github.base_ref }}; then
-            echo "Branches have a merge base, using triple-dot diff"
-            git diff origin/${{ github.base_ref }}...origin/${{ github.head_ref }} > diff.txt
-          else
-            echo "No merge base, using full diff between branches"
-            git diff origin/${{ github.base_ref }} origin/${{ github.head_ref }} > diff.txt
-          fi
-
-          head -c 24000 diff.txt > diff_trimmed.txt
-
-      - name: Ask DeepSeek for review
-        id: ask_deepseek
+      # НАШ КРОК (Усі пробіли зліва мають точно збігатися з кроком вище)
+      - name: Run DeepSeek Code Review
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        shell: /usr/bin/bash -e {0}
         run: |
           if [ -z "${DEEPSEEK_API_KEY}" ]; then
             echo "DEEPSEEK_API_KEY is not set"
             exit 1
           fi
-
-          # Системный промпт жестко требует вализацию JSON структуры от ИИ
+          
           SYSTEM_PROMPT="You are an expert code reviewer. Review the provided Git diff.
           Your response MUST be a single, valid JSON object with a single root key 'comments'.
           The 'comments' key must be an array of objects. Each object represents a review comment for a specific line.
@@ -63,7 +40,7 @@ jobs:
           }
           
           If there are no issues found, return: {\"comments\": []}"
-
+          
           jq -n --rawfile diff diff_trimmed.txt --arg sys "$SYSTEM_PROMPT" '
             {
               model: "deepseek-chat",
@@ -74,63 +51,20 @@ jobs:
               response_format: { type: "json_object" }
             }
           ' > payload.json
-
-           RESPONSE=$(curl -sS https://api.deepseek.com/chat/completions \
+          
+          RESPONSE=$(curl -sS https://api.deepseek.com/chat/completions \
             -H "Content-Type: application/json" \
-            -H "Authorization: Bearer ${DEEPSEEK_API_KEY}" \
-            -d "$PAYLOAD")
-
-
+            -H "Authorization: Bearer $DEEPSEEK_API_KEY" \
+            -d @payload.json)
+          
           echo "$RESPONSE" > deepseek_response.json
-
-          # Извлекаем сырой JSON-массив комментариев, который сгенерировал DeepSeek
+          
+          if jq -e '.error' deepseek_response.json > /dev/null; then
+            echo "Помилка від API DeepSeek:"
+            jq -r '.error.message' deepseek_response.json
+            exit 1
+          fi
+          
           jq -r '.choices[0].message.content' deepseek_response.json > ai_comments.json
-
-      - name: Post PR Review
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-          # Получаем SHA последнего коммита из контекста GitHub Actions
-          COMMIT_ID: ${{ github.event.pull_request.head.sha }}
-        run: |
-          # Проверяем, что файл с комментариями не пустой и содержит валидный JSON
-          if [ ! -s ai_comments.json ] || ! jq -e . ai_comments.json >/dev/null 2>&1; then
-            echo "Ошибка: DeepSeek не вернул валидный JSON или ответ пуст."
-            exit 0
-          fi
-
-          # Проверяем, есть ли вообще комментарии. Если массив пустой — ревью пройдено успешно
-          COMMENT_COUNT=$(jq '.comments | length' ai_comments.json)
-          if [ "$COMMENT_COUNT" -eq 0 ]; then
-            echo "DeepSeek не нашел замечаний к коду."
-            
-            # Опционально: создаем пустой аппрув-обзор
-            jq -n --arg commit "$COMMIT_ID" '{commit_id: $commit, body: "DeepSeek: Замечаний к коду не обнаружено. Отличная работа!", event: "APPROVE"}' > review_payload.json
-          else
-            echo "Найдено замечаний: $COMMENT_COUNT. Формируем пачку инлайновых комментариев..."
-            
-            # Трансформируем ответ DeepSeek в формат, который ожидает GitHub API для Review
-            # Добавляем обязательные поля commit_id, event и side
-            jq --arg commit "$COMMIT_ID" '
-              {
-                commit_id: $commit,
-                event: "COMMENT",
-                body: "DeepSeek AI провел анализ изменений и оставил свои замечания ниже.",
-                comments: [
-                  .comments[] | {
-                    path: .path,
-                    line: (.line | tonumber),
-                    body: .body,
-                    side: "RIGHT"
-                  }
-                ]
-              }
-            ' ai_comments.json > review_payload.json
-          fi
-
-          # Отправляем весь массив комментариев на GitHub одним запросом
-          curl -sS -X POST \
-            -H "Authorization: Bearer $GITHUB_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            https://github.com{{ github.repository }}/pulls/$PR_NUMBER/reviews \
-            -d @review_payload.json
+          
+          echo "✅ Ревью успішно виконано. Результат збережено в ai_comments.json"
