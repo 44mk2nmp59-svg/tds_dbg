@@ -1,0 +1,22 @@
+# EDT service folders
+.settings/
+bin/
+out/
+.metadata/
+.gradle/
+.classpath
+.project
+
+# Logs
+*.log
+
+# 1C binary files (never commit)
+*.cf
+*.cfe
+*.epf
+*.erf
+*.dt
+
+# OS garbage
+Thumbs.db
+.DS_Store

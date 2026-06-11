@@ -263,4 +263,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="229f3c4d-dda0-4d28-96f4-06db9842b716">
+    <name>АудитЯчеек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аудит ячеек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
