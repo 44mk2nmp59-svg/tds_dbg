@@ -342,6 +342,13 @@
         <value>23</value>
       </code>
     </items>
+    <items id="1a4e90b0-ab36-4597-bebf-555c9cc5c10a">
+      <name>АудитSKU</name>
+      <description>Аудит SKU</description>
+      <code xsi:type="core:NumberValue">
+        <value>35</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
