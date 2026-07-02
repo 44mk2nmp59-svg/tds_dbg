@@ -17,7 +17,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>DBG</vendor>
-  <version>1.8.00</version>
+  <version>1.8.01</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <functionality>WiFiPrinters</functionality>
@@ -221,9 +221,10 @@
   <commonModules>CommonModule.МенеджерОборудованияМаркировкаКлиентСервер</commonModules>
   <commonModules>CommonModule.МенеджерОборудованияМаркировкаКлиентСерверПовтИсп</commonModules>
   <commonModules>CommonModule.СтроковыеФункцииКлиентСервер</commonModules>
-  <commonModules>CommonModule.ЗаписьЛогов</commonModules>
+  <commonModules>CommonModule.ЗаписьЛоговКлиент</commonModules>
   <commonModules>CommonModule.КомплектовщикТК</commonModules>
   <commonModules>CommonModule.КомплектовщикТК_Клиент</commonModules>
+  <commonModules>CommonModule.КомплектовщикТК_КлиентСервер</commonModules>
   <commonModules>CommonModule.РозницаТК</commonModules>
   <commonModules>CommonModule.ОбработкаФормыСервер</commonModules>
   <commonModules>CommonModule.ОбработкаФормыКлиент</commonModules>

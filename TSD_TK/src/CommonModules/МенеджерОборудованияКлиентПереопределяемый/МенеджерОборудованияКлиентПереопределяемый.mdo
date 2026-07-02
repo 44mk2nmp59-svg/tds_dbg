@@ -6,5 +6,4 @@
     <value>Менеджер оборудования клиент переопределяемый</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
-  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

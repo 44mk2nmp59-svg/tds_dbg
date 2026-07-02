@@ -6,6 +6,5 @@
     <value>Менеджер оборудования клиент повт исп</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
-  <clientOrdinaryApplication>true</clientOrdinaryApplication>
   <returnValuesReuse>DuringSession</returnValuesReuse>
 </mdclass:CommonModule>
