@@ -49,6 +49,10 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Штрихкод товара</value>
+  </recordPresentation>
   <resources uuid="d725e06f-9d66-4e5a-a679-3f2e1e2099f1">
     <name>Коэффициент</name>
     <synonym>
