@@ -361,10 +361,111 @@
 			</c>
 		</row>
 	</rowsItem>
+	<rowsItem>
+		<index>22</index>
+		<row>
+			<formatIndex>22</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>23</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>24</index>
+		<row>
+			<formatIndex>23</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>24</f>
+					<parameter>Статья</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>25</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>25</index>
+		<row>
+			<formatIndex>26</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>27</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>План</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>28</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Факт</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>29</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Різниця</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>26</index>
+		<row>
+			<formatIndex>26</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>30</f>
+					<parameter>план</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+					<parameter>факт</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>32</f>
+					<parameter>разница</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>22</defaultFormatIndex>
-	<height>22</height>
-	<vgRows>22</vgRows>
+	<defaultFormatIndex>33</defaultFormatIndex>
+	<height>27</height>
+	<vgRows>27</vgRows>
 	<merge>
 		<r>1</r>
 		<c>1</c>
@@ -432,6 +533,11 @@
 		<c>1</c>
 		<w>2</w>
 	</merge>
+	<merge>
+		<r>24</r>
+		<c>1</c>
+		<w>2</w>
+	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>ЗаголовокНачисление</name>
 		<area>
@@ -458,6 +564,26 @@
 			<type>Rows</type>
 			<beginRow>19</beginRow>
 			<endRow>19</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Мотивация</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>24</beginRow>
+			<endRow>25</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>МотивацияСтрока</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>26</beginRow>
+			<endRow>26</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -508,12 +634,18 @@
 	<line width="2" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
+	<line width="3" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
 	<font faceName="Arial" height="8" bold="true" italic="true" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="10" bold="false" italic="true" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font ref="style:NormalTextFont" kind="StyleItem"/>
+	<font faceName="" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
 		<width>7</width>
 	</format>
@@ -658,6 +790,88 @@
 				<v8:content>ЧЦ=15; ЧДЦ=2; ЧН=0,00</v8:content>
 			</v8:item>
 		</format>
+	</format>
+	<format>
+		<height>0</height>
+	</format>
+	<format>
+		<height>58</height>
+	</format>
+	<format>
+		<font>6</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>7</font>
+		<border>0</border>
+	</format>
+	<format>
+		<height>53</height>
+	</format>
+	<format>
+		<font>4</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+	</format>
+	<format>
+		<font>4</font>
+		<border>0</border>
+	</format>
+	<format>
+		<font>4</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>0</bottomBorder>
+	</format>
+	<format>
+		<font>8</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<fillType>Parameter</fillType>
+		<containsValue>true</containsValue>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>15</v8:Digits>
+				<v8:FractionDigits>2</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧДЦ=2; ЧРД=; ЧН=0,00</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>8</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<fillType>Parameter</fillType>
+		<containsValue>true</containsValue>
+	</format>
+	<format>
+		<font>8</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<fillType>Parameter</fillType>
+		<containsValue>true</containsValue>
 	</format>
 	<format>
 		<width>72</width>

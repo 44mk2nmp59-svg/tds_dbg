@@ -5,4 +5,6 @@
     <key>ru</key>
     <value>Начисления</value>
   </synonym>
+  <templateType>SpreadsheetDocument</templateType>
+  <template>Template</template>
 </mdclass:CommonTemplate>
