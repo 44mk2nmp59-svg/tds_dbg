@@ -1015,13 +1015,4 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="ed1381fd-a265-42e0-8926-a0261e184de5">
-    <name>Тест</name>
-    <synonym>
-      <key>ru</key>
-      <value>Тест</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
 </mdclass:DataProcessor>
