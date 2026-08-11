@@ -358,7 +358,6 @@
   <commonForms>CommonForm.ФормаСканироватьТЕ</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ФормаПечатиПДФ</commonForms>
-  <commonForms>CommonForm.test</commonForms>
   <catalogs>Catalog.ДрайверыОборудования</catalogs>
   <catalogs>Catalog.ПодключаемоеОборудование</catalogs>
   <catalogs>Catalog.РабочиеМеста</catalogs>
