@@ -1875,6 +1875,42 @@
                   </textColor>
                 </extInfo>
               </items>
+              <items xsi:type="form:Decoration">
+                <name>ДекорацияУсловиеВозврата</name>
+                <id>531</id>
+                <title>
+                  <key>ru</key>
+                  <value>&lt;30 діб підлягає -50%</value>
+                </title>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ДекорацияУсловиеВозвратаРасширеннаяПодсказка</name>
+                  <id>533</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ДекорацияУсловиеВозвратаКонтекстноеМеню</name>
+                  <id>532</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <textColor xsi:type="core:ColorRef">
+                  <color>Style.SpecialTextColor</color>
+                </textColor>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </items>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
