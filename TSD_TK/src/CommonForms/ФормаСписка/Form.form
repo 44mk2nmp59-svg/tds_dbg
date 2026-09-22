@@ -126,6 +126,23 @@
       <segments>ТаблицаДанных</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
+    <excludedCommands>Delete</excludedCommands>
+    <excludedCommands>OutputList</excludedCommands>
+    <excludedCommands>SortListDesc</excludedCommands>
+    <excludedCommands>Copy</excludedCommands>
+    <excludedCommands>SearchHistory</excludedCommands>
+    <excludedCommands>MoveDown</excludedCommands>
+    <excludedCommands>Change</excludedCommands>
+    <excludedCommands>CancelSearch</excludedCommands>
+    <excludedCommands>CopyToClipboard</excludedCommands>
+    <excludedCommands>FindByCurrentValue</excludedCommands>
+    <excludedCommands>SortListAsc</excludedCommands>
+    <excludedCommands>ShowRowRearrangement</excludedCommands>
+    <excludedCommands>EndEdit</excludedCommands>
+    <excludedCommands>Find</excludedCommands>
+    <excludedCommands>Add</excludedCommands>
+    <excludedCommands>SearchEverywhere</excludedCommands>
+    <excludedCommands>MoveUp</excludedCommands>
     <items xsi:type="form:FormGroup">
       <name>ТаблицаДанныхГруппаКолонок</name>
       <id>35</id>
@@ -133,19 +150,20 @@
         <name>ТаблицаДанныхГруппаТовар</name>
         <id>31</id>
         <items xsi:type="form:FormField">
-          <name>ТаблицаДанныхАртикул</name>
-          <id>22</id>
+          <name>ТаблицаДанныхСтрокаТовара</name>
+          <id>40</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>ТаблицаДанных.Артикул</segments>
+            <segments>ТаблицаДанных.СтрокаТовара</segments>
           </dataPath>
+          <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>ТаблицаДанныхАртикулРасширеннаяПодсказка</name>
-            <id>24</id>
+            <name>ТаблицаДанныхСтрокаТовараРасширеннаяПодсказка</name>
+            <id>42</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -154,54 +172,23 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ТаблицаДанныхАртикулКонтекстноеМеню</name>
-            <id>23</id>
+            <name>ТаблицаДанныхСтрокаТовараКонтекстноеМеню</name>
+            <id>41</id>
           </contextMenu>
-          <type>LabelField</type>
-          <editMode>EnterOnInput</editMode>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <autoCellHeight>true</autoCellHeight>
+          <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <extInfo xsi:type="form:LabelFieldExtInfo">
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
-            <border xsi:type="core:BorderDef">
-              <width>1</width>
-            </border>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>ТаблицаДанныхНаименование</name>
-          <id>25</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ТаблицаДанных.Товар</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>ТаблицаДанныхНаименованиеРасширеннаяПодсказка</name>
-            <id>27</id>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ТаблицаДанныхНаименованиеКонтекстноеМеню</name>
-            <id>26</id>
-          </contextMenu>
-          <type>LabelField</type>
-          <editMode>EnterOnInput</editMode>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <extInfo xsi:type="form:LabelFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <border xsi:type="core:BorderDef">
-              <width>1</width>
-            </border>
+            <wrap>true</wrap>
+            <multiLine>true</multiLine>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -225,7 +212,7 @@
         </extendedTooltip>
         <type>ColumnGroup</type>
         <extInfo xsi:type="form:ColumnGroupExtInfo">
-          <group>InCell</group>
+          <group>Vertical</group>
           <showTitle>true</showTitle>
         </extInfo>
       </items>
@@ -442,6 +429,20 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <excludedCommands>SaveValues</excludedCommands>
+  <excludedCommands>OpenFromStandaloneServer</excludedCommands>
+  <excludedCommands>Retry</excludedCommands>
+  <excludedCommands>OpenFromMainServer</excludedCommands>
+  <excludedCommands>Abort</excludedCommands>
+  <excludedCommands>CustomizeForm</excludedCommands>
+  <excludedCommands>Help</excludedCommands>
+  <excludedCommands>Yes</excludedCommands>
+  <excludedCommands>RestoreValues</excludedCommands>
+  <excludedCommands>Close</excludedCommands>
+  <excludedCommands>OK</excludedCommands>
+  <excludedCommands>Cancel</excludedCommands>
+  <excludedCommands>No</excludedCommands>
+  <excludedCommands>Ignore</excludedCommands>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -518,6 +519,24 @@
           <precision>15</precision>
           <scale>3</scale>
         </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СтрокаТовара</name>
+      <title>
+        <key>ru</key>
+        <value>Строка товара</value>
+      </title>
+      <id>9</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>
