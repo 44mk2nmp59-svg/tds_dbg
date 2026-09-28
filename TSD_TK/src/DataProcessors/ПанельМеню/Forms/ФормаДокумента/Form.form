@@ -106,7 +106,7 @@
     <id>6</id>
     <items xsi:type="form:Decoration">
       <name>СообщениеИнициализацииПользователя</name>
-      <id>8</id>
+      <id>542</id>
       <title>
         <key>ru</key>
         <value>Необхідна авторизація користувача</value>
@@ -118,7 +118,7 @@
       </userVisible>
       <extendedTooltip>
         <name>СообщениеИнициализацииПользователяРасширеннаяПодсказка</name>
-        <id>10</id>
+        <id>544</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -128,15 +128,17 @@
       </extendedTooltip>
       <contextMenu>
         <name>СообщениеИнициализацииПользователяКонтекстноеМеню</name>
-        <id>9</id>
+        <id>543</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>true</horizontalStretch>
-      <font xsi:type="core:AutoFont">
-        <height>8.0</height>
+      <font xsi:type="core:FontRef">
+        <font>Style.NormalTextFont</font>
+        <height>10.0</height>
+        <scale>100</scale>
       </font>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <handlers>
