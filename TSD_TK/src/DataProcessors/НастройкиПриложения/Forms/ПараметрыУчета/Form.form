@@ -195,24 +195,20 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>ИспользоватьПечатьНаПринтер</name>
-    <id>142</id>
-    <title>
-      <key>ru</key>
-      <value>Печать с мобильного устройства</value>
-    </title>
+    <name>ИспользоватьПриемПоЗаказуНов</name>
+    <id>156</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ИспользоватьПечатьНаПринтер</segments>
+      <segments>ИспользоватьПриемПоЗаказуНов</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ИспользоватьПечатьНаПринтерРасширеннаяПодсказка</name>
-      <id>144</id>
+      <name>ИспользоватьПриемПоЗаказуНовРасширеннаяПодсказка</name>
+      <id>158</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -221,8 +217,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ИспользоватьПечатьНаПринтерКонтекстноеМеню</name>
-      <id>143</id>
+      <name>ИспользоватьПриемПоЗаказуНовКонтекстноеМеню</name>
+      <id>157</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>CheckBoxField</type>
@@ -233,20 +229,20 @@
     <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
   </items>
   <items xsi:type="form:FormField">
-    <name>ИспользоватьЗаказыКлиентов</name>
-    <id>65</id>
+    <name>ИспользоватьПриемТоваровНов</name>
+    <id>159</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ИспользоватьЗаказыКлиентов</segments>
+      <segments>ИспользоватьПриемТоваровНов</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ИспользоватьЗаказыКлиентовРасширеннаяПодсказка</name>
-      <id>67</id>
+      <name>ИспользоватьПриемТоваровНовРасширеннаяПодсказка</name>
+      <id>161</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -255,76 +251,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ИспользоватьЗаказыКлиентовКонтекстноеМеню</name>
-      <id>66</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>CheckBoxField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-  </items>
-  <items xsi:type="form:FormField">
-    <name>ИспользоватьУценкуТовара</name>
-    <id>89</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ИспользоватьУценкуТовара</segments>
-    </dataPath>
-    <titleLocation>Right</titleLocation>
-    <extendedTooltip>
-      <name>ИспользоватьУценкуТовараРасширеннаяПодсказка</name>
-      <id>91</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ИспользоватьУценкуТовараКонтекстноеМеню</name>
-      <id>90</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>CheckBoxField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-  </items>
-  <items xsi:type="form:FormField">
-    <name>ИспользоватьПроверкуЦен</name>
-    <id>74</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ИспользоватьПроверкуЦен</segments>
-    </dataPath>
-    <titleLocation>Right</titleLocation>
-    <extendedTooltip>
-      <name>ИспользоватьПроверкуЦенРасширеннаяПодсказка</name>
-      <id>76</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ИспользоватьПроверкуЦенКонтекстноеМеню</name>
-      <id>75</id>
+      <name>ИспользоватьПриемТоваровНовКонтекстноеМеню</name>
+      <id>160</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>CheckBoxField</type>
@@ -373,6 +301,108 @@
     <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
   </items>
   <items xsi:type="form:FormField">
+    <name>ИспользоватьПрийомПеремещенияНов</name>
+    <id>162</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ИспользоватьПрийомПеремещенияНов</segments>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <extendedTooltip>
+      <name>ИспользоватьПрийомПеремещенияНовРасширеннаяПодсказка</name>
+      <id>164</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ИспользоватьПрийомПеремещенияНовКонтекстноеМеню</name>
+      <id>163</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ИспользоватьПроверкуЦен</name>
+    <id>74</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ИспользоватьПроверкуЦен</segments>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <extendedTooltip>
+      <name>ИспользоватьПроверкуЦенРасширеннаяПодсказка</name>
+      <id>76</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ИспользоватьПроверкуЦенКонтекстноеМеню</name>
+      <id>75</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ИспользоватьПечатьРеестраНов</name>
+    <id>165</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ИспользоватьПечатьРеестраНов</segments>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <extendedTooltip>
+      <name>ИспользоватьПечатьРеестраНовРасширеннаяПодсказка</name>
+      <id>167</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ИспользоватьПечатьРеестраНовКонтекстноеМеню</name>
+      <id>166</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
     <name>ИспользоватьВозвратТовара</name>
     <id>86</id>
     <title>
@@ -401,6 +431,40 @@
     <contextMenu>
       <name>ИспользоватьВозвратТовараКонтекстноеМеню</name>
       <id>87</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ИспользоватьЗаказПоставщикуНов</name>
+    <id>168</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ИспользоватьЗаказПоставщикуНов</segments>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <extendedTooltip>
+      <name>ИспользоватьЗаказПоставщикуНовРасширеннаяПодсказка</name>
+      <id>170</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ИспользоватьЗаказПоставщикуНовКонтекстноеМеню</name>
+      <id>169</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>CheckBoxField</type>
@@ -445,20 +509,20 @@
     <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
   </items>
   <items xsi:type="form:FormField">
-    <name>ИспользоватьПеремещениеТоваров</name>
-    <id>77</id>
+    <name>ИспользоватьУценкуТовара</name>
+    <id>89</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ИспользоватьПеремещениеТоваров</segments>
+      <segments>ИспользоватьУценкуТовара</segments>
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ИспользоватьПеремещениеТоваровРасширеннаяПодсказка</name>
-      <id>79</id>
+      <name>ИспользоватьУценкуТовараРасширеннаяПодсказка</name>
+      <id>91</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -467,8 +531,42 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ИспользоватьПеремещениеТоваровКонтекстноеМеню</name>
-      <id>78</id>
+      <name>ИспользоватьУценкуТовараКонтекстноеМеню</name>
+      <id>90</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ИспользоватьФото</name>
+    <id>130</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ИспользоватьФото</segments>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <extendedTooltip>
+      <name>ИспользоватьФотоРасширеннаяПодсказка</name>
+      <id>132</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ИспользоватьФотоКонтекстноеМеню</name>
+      <id>131</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>CheckBoxField</type>
@@ -513,9 +611,114 @@
     <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
   </items>
   <items xsi:type="form:FormField">
+    <name>ИспользоватьПеремещениеТоваров</name>
+    <id>77</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ИспользоватьПеремещениеТоваров</segments>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <extendedTooltip>
+      <name>ИспользоватьПеремещениеТоваровРасширеннаяПодсказка</name>
+      <id>79</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ИспользоватьПеремещениеТоваровКонтекстноеМеню</name>
+      <id>78</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ИспользоватьЗаказыКлиентов</name>
+    <id>65</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ИспользоватьЗаказыКлиентов</segments>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <extendedTooltip>
+      <name>ИспользоватьЗаказыКлиентовРасширеннаяПодсказка</name>
+      <id>67</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ИспользоватьЗаказыКлиентовКонтекстноеМеню</name>
+      <id>66</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>ИспользоватьПечатьНаПринтер</name>
+    <id>142</id>
+    <title>
+      <key>ru</key>
+      <value>Печать с мобильного устройства</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ИспользоватьПечатьНаПринтер</segments>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <extendedTooltip>
+      <name>ИспользоватьПечатьНаПринтерРасширеннаяПодсказка</name>
+      <id>144</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ИспользоватьПечатьНаПринтерКонтекстноеМеню</name>
+      <id>143</id>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
     <name>ИспользоватьЖурналДокументов</name>
     <id>83</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -818,7 +1021,6 @@
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
     </items>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -895,7 +1097,6 @@
   <items xsi:type="form:FormField">
     <name>ИспользоватьИнвентаризацияКоммисия</name>
     <id>95</id>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -1053,40 +1254,6 @@
     <contextMenu>
       <name>ИспользоватьПриходУходКонтекстноеМеню</name>
       <id>108</id>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>CheckBoxField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-  </items>
-  <items xsi:type="form:FormField">
-    <name>ИспользоватьФото</name>
-    <id>130</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ИспользоватьФото</segments>
-    </dataPath>
-    <titleLocation>Right</titleLocation>
-    <extendedTooltip>
-      <name>ИспользоватьФотоРасширеннаяПодсказка</name>
-      <id>132</id>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>ИспользоватьФотоКонтекстноеМеню</name>
-      <id>131</id>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>CheckBoxField</type>
@@ -2318,6 +2485,186 @@
       <value>Рекламация (Акты)</value>
     </title>
     <id>60</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <savedData>true</savedData>
+  </attributes>
+  <attributes>
+    <name>ИспользоватьПриемПоЗаказуНов</name>
+    <title>
+      <key>ru</key>
+      <value>Прием по заказу</value>
+    </title>
+    <id>61</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <savedData>true</savedData>
+  </attributes>
+  <attributes>
+    <name>ИспользоватьПриемПоЗаказуНовФО</name>
+    <title>
+      <key>ru</key>
+      <value>Прием по заказу</value>
+    </title>
+    <id>62</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <savedData>true</savedData>
+  </attributes>
+  <attributes>
+    <name>ИспользоватьПриемТоваровНов</name>
+    <title>
+      <key>ru</key>
+      <value>Прием по приходу</value>
+    </title>
+    <id>63</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <savedData>true</savedData>
+  </attributes>
+  <attributes>
+    <name>ИспользоватьПриемТоваровНовФО</name>
+    <title>
+      <key>ru</key>
+      <value>Прием по приходу</value>
+    </title>
+    <id>64</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <savedData>true</savedData>
+  </attributes>
+  <attributes>
+    <name>ИспользоватьПрийомПеремещенияНов</name>
+    <title>
+      <key>ru</key>
+      <value>Прием по перемещению</value>
+    </title>
+    <id>65</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <savedData>true</savedData>
+  </attributes>
+  <attributes>
+    <name>ИспользоватьПрийомПеремещенияНовФО</name>
+    <title>
+      <key>ru</key>
+      <value>Прием по перемещению</value>
+    </title>
+    <id>66</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <savedData>true</savedData>
+  </attributes>
+  <attributes>
+    <name>ИспользоватьПечатьРеестраНов</name>
+    <title>
+      <key>ru</key>
+      <value>Печать реестра</value>
+    </title>
+    <id>67</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <savedData>true</savedData>
+  </attributes>
+  <attributes>
+    <name>ИспользоватьПечатьРеестраНовФО</name>
+    <title>
+      <key>ru</key>
+      <value>Печать реестра</value>
+    </title>
+    <id>68</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <savedData>true</savedData>
+  </attributes>
+  <attributes>
+    <name>ИспользоватьЗаказПоставщикуНов</name>
+    <title>
+      <key>ru</key>
+      <value>Заказ поставщику</value>
+    </title>
+    <id>69</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <savedData>true</savedData>
+  </attributes>
+  <attributes>
+    <name>ИспользоватьЗаказПоставщикуНовФО</name>
+    <title>
+      <key>ru</key>
+      <value>Заказ поставщику</value>
+    </title>
+    <id>70</id>
     <valueType>
       <types>Boolean</types>
     </valueType>

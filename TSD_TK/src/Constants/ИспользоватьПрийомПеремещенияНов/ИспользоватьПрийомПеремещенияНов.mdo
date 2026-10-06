@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9c8b496-d443-4f11-86b5-d670d19bc9a4">
+  <producedTypes>
+    <managerType typeId="e449cde5-48db-4fdd-9269-0ee4b4eb94c3" valueTypeId="727e4ffa-6060-4daa-95b0-32958a68b9dd"/>
+    <valueManagerType typeId="e2a03956-f09b-48d1-bdc8-f16196dd96db" valueTypeId="0b80d70c-3b56-427a-b160-bfc88c974897"/>
+    <valueKeyType typeId="4515e455-c397-46f7-8e6a-208436b33f3b" valueTypeId="a6dc6b8e-e47f-45c1-82a0-0125495edd72"/>
+  </producedTypes>
+  <name>ИспользоватьПрийомПеремещенияНов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать прием по перемещению</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
