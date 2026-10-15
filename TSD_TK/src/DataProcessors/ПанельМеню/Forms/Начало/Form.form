@@ -116,7 +116,7 @@
           <name>СообщениеЗадачиНажатие</name>
         </handlers>
         <hyperlink>true</hyperlink>
-        <horizontalAlign>Left</horizontalAlign>
+        <horizontalAlign>Center</horizontalAlign>
       </extInfo>
     </items>
     <items xsi:type="form:Decoration">
@@ -324,6 +324,48 @@
         <handlers>
           <event>Click</event>
           <name>ДекорацияПроверкаСтандартовНажатие</name>
+        </handlers>
+        <hyperlink>true</hyperlink>
+        <horizontalAlign>Center</horizontalAlign>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>СообщениеПереоценки</name>
+      <id>508</id>
+      <title>
+        <key>ru</key>
+        <value>Задач на переоцінки 0</value>
+      </title>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>СообщениеПереоценкиРасширеннаяПодсказка</name>
+        <id>510</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СообщениеПереоценкиКонтекстноеМеню</name>
+        <id>509</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.SpecialTextColor</color>
+      </textColor>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>Click</event>
+          <name>СообщениеПереоценкиНажатие</name>
         </handlers>
         <hyperlink>true</hyperlink>
         <horizontalAlign>Center</horizontalAlign>
@@ -608,6 +650,7 @@
           <key>ru</key>
           <value>Журнал документів</value>
         </title>
+        <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -711,6 +754,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
+        <groupHorizontalAlign>Center</groupHorizontalAlign>
         <placementArea>UserCmds</placementArea>
         <textColor xsi:type="core:ColorDef">
           <red>51</red>
@@ -788,6 +832,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
+        <groupHorizontalAlign>Center</groupHorizontalAlign>
         <placementArea>UserCmds</placementArea>
         <textColor xsi:type="core:ColorDef">
           <red>51</red>
@@ -935,6 +980,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
+        <groupHorizontalAlign>Center</groupHorizontalAlign>
         <placementArea>UserCmds</placementArea>
         <textColor xsi:type="core:ColorDef">
           <red>51</red>
@@ -1082,6 +1128,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
+        <groupHorizontalAlign>Center</groupHorizontalAlign>
         <placementArea>UserCmds</placementArea>
         <textColor xsi:type="core:ColorDef">
           <red>51</red>
@@ -1150,6 +1197,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
+        <groupHorizontalAlign>Center</groupHorizontalAlign>
         <placementArea>UserCmds</placementArea>
         <textColor xsi:type="core:ColorDef">
           <red>51</red>
@@ -1223,6 +1271,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
+        <groupHorizontalAlign>Center</groupHorizontalAlign>
         <placementArea>UserCmds</placementArea>
         <textColor xsi:type="core:ColorDef">
           <red>51</red>
@@ -1290,6 +1339,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
+        <groupHorizontalAlign>Center</groupHorizontalAlign>
         <placementArea>UserCmds</placementArea>
         <textColor xsi:type="core:ColorDef">
           <red>51</red>
@@ -1636,6 +1686,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
+        <groupHorizontalAlign>Center</groupHorizontalAlign>
         <placementArea>UserCmds</placementArea>
         <textColor xsi:type="core:ColorDef">
           <red>51</red>
