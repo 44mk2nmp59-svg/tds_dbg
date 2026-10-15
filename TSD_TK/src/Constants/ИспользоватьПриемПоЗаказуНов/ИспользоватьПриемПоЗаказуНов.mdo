@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47ae6043-f7f5-4ea7-91d3-2eca360aec81">
+  <producedTypes>
+    <managerType typeId="6211073b-ae5c-428b-8281-d37ed06dc50c" valueTypeId="9d3d9208-96b1-4acd-9855-1ee2af9f196d"/>
+    <valueManagerType typeId="b6a5a1c9-0db7-46c5-b321-cb908e35f8e1" valueTypeId="4841920e-89c3-4ce4-8471-0ea25cc6eefc"/>
+    <valueKeyType typeId="dd4125af-01fe-4ea4-af2d-159ca24a0faf" valueTypeId="a6dd4780-a03d-4f7c-9d1f-369ca71498df"/>
+  </producedTypes>
+  <name>ИспользоватьПриемПоЗаказуНов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать прием по заказу</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

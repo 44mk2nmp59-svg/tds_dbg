@@ -127,6 +127,14 @@
   <commonPictures>CommonPicture.ГотовКОбмену</commonPictures>
   <commonPictures>CommonPicture.СтатусВРаботе</commonPictures>
   <commonPictures>CommonPicture.Розница</commonPictures>
+  <commonPictures>CommonPicture.ПриемЗаказа</commonPictures>
+  <commonPictures>CommonPicture.ПриемТовара</commonPictures>
+  <commonPictures>CommonPicture.ПеремещениеЗапаса</commonPictures>
+  <commonPictures>CommonPicture.ПечатьРеест</commonPictures>
+  <commonPictures>CommonPicture.ЗаявкаСервисДеск</commonPictures>
+  <commonPictures>CommonPicture.Заказ</commonPictures>
+  <commonPictures>CommonPicture.Пересортица</commonPictures>
+  <commonPictures>CommonPicture.ИнвентаризацияЛок</commonPictures>
   <sessionParameters>SessionParameter.UUID</sessionParameters>
   <sessionParameters>SessionParameter.АдминистративныйРежим</sessionParameters>
   <sessionParameters>SessionParameter.ГоризонтальнаяОриентацияЭкрана</sessionParameters>
@@ -331,6 +339,11 @@
   <constants>Constant.ИспользоватьЛогистика</constants>
   <constants>Constant.ИспользоватьЖурналРекламация</constants>
   <constants>Constant.НомерТТ</constants>
+  <constants>Constant.ИспользоватьПриемПоЗаказуНов</constants>
+  <constants>Constant.ИспользоватьПриемТоваровНов</constants>
+  <constants>Constant.ИспользоватьПрийомПеремещенияНов</constants>
+  <constants>Constant.ИспользоватьПечатьРеестраНов</constants>
+  <constants>Constant.ИспользоватьЗаказПоставщикуНов</constants>
   <commonForms>CommonForm.ФормаНастройкиУниверсальныйДрайвер</commonForms>
   <commonForms>CommonForm.РедактированиеСкидки</commonForms>
   <commonForms>CommonForm.РедактированиеАдреса</commonForms>
